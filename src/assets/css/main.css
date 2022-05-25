@@ -1,1 +1,226 @@
-/* No CSS */
+@import url("https://use.typekit.net/tmt6ast.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+body {
+  font-family: "acumin-pro" !important;
+}
+
+.container {
+  max-width: 1258px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+
+.home-bg {
+  background: #000000;
+  height: 100vh;
+  position: relative;
+}
+
+.home-bg .aside-section {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  -webkit-transition: all ease .8s;
+  transition: all ease .8s;
+  background: #E50000;
+}
+
+.home-bg .aside-section .aside-section-button {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  background: #E50000;
+  height: 180px;
+  cursor: pointer;
+  -webkit-transform: translate(0%, -100%);
+          transform: translate(0%, -100%);
+}
+
+.home-bg .aside-section .aside-section-button p {
+  margin-left: -34px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 45px;
+}
+
+.home-bg .aside-section aside .aside-close {
+  position: absolute;
+  top: 6%;
+  left: 8%;
+  cursor: pointer;
+}
+
+.home-bg .aside-section aside .aside-menus {
+  width: 100%;
+  height: 100vh;
+}
+
+.home-bg .aside-section aside .aside-menus .aside-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 5rem;
+  z-index: 9999;
+  text-align: end;
+}
+
+.home-bg .aside-section aside .aside-menus .aside-nav a {
+  font-size: 10rem;
+  font-weight: 700;
+  letter-spacing: -10.4px;
+  line-height: 1;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.home-bg .aside-section aside .aside-menus .aside-nav a:hover {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.home-bg .aside-section aside .aside-menus .aside-content-image {
+  z-index: 9999;
+  position: relative;
+  left: 14%;
+  top: 5%;
+  opacity: 0;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.home-bg .aside-section aside .aside-menus .aside-content-image img {
+  width: 100%;
+}
+
+.home-bg .aside-section aside .aside-menus .aside-content-image.show {
+  opacity: 1;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.home-bg .aside-section aside .aside-content-content {
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+  opacity: 0;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.home-bg .aside-section aside .aside-content-content h1 {
+  width: 520px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -3.06px;
+  line-height: 1;
+}
+
+.home-bg .aside-section aside .aside-content-content p {
+  line-height: 1;
+  font-size: 20px;
+  padding-top: 23px;
+  color: #000000;
+}
+
+.home-bg .aside-section aside .aside-content-content.show {
+  opacity: 1;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.home-bg .aside-section.active {
+  left: 0%;
+  -webkit-transition: all ease .8s;
+  transition: all ease .8s;
+}
+
+.home-bg .footer-item {
+  padding-bottom: 18px;
+  padding-top: 30px;
+}
+
+.home-bg .footer-item .footer-text h1 {
+  font-weight: 400;
+  font-size: 25px !important;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: -0.06em;
+}
+
+.home-bg .footer-item .footer-socials {
+  gap: 2rem;
+}
+
+.home-bg .slider-items h1 {
+  color: #303030;
+  letter-spacing: -0.06em;
+  font-size: 4rem;
+  font-weight: 700;
+}
