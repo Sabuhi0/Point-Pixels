@@ -1,16 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Css -->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/src/assets/css/main.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="/node_modules/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="/node_modules/slick-carousel/slick//slick-theme.css">
 </head>
+
 <body>
-    <h1 class="text-center">Hello World</h1>
+    <!-- Home Section Start -->
+    <section id="home">
+        <main class="home-bg d-flex flex-column justify-content-end">
+            <!-- Header Start -->
+            <div class="home-header-text text-light"><!-- <h1>Point&Pixels</h1> --></div>
+            <!-- Header End -->
+
+            <!-- Aside Menu Start -->
+            <div class="aside-section">
+                <div class="aside-section-button"><p>click for more</p></div>
+                <aside>
+                    <div class="aside-close">
+                        <svg width="50" height="50" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.6131 49.3869L49.3869 8.61304" stroke="black" stroke-width="16" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M8.6131 8.61304L49.3869 49.3869" stroke="black" stroke-width="16" stroke-miterlimit="10" stroke-linecap="round"/>
+                        </svg>    
+                    </div>
+                    <!-- Aside menu Start -->
+                    <div class="aside-content-content">
+                        <h1>we are always excited to hear you</h1>
+                        <p>
+                            say hi to <a href="/">info@pointandpixels.com</a><br>
+                            and lets talk about how we can help you <br>
+                            to build your iconic move
+                        </p>
+                    </div>
+                    <div class="aside-menus d-flex align-items-center justify-content-end">
+                        <div class="aside-content-image">
+                            <img src="../assets/images/png/uiot-cover 1.png" alt="">
+                        </div>
+                        <nav class="aside-nav">
+                            <a onmouseover="work(this)" href="/">
+                                work
+                            </a>
+                            <a onmouseover="contact(this)" href="/">contact</a>
+                            <a href="/">news</a>
+                        </nav>
+                    </div>
+                    <!-- Aside menu End -->
+                </aside>
+            </div>
+            <!-- Aside Menu End -->
+
+            <!-- Slider Start -->
+            <div class="slider-items d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                    <h1>creativity</h1>
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="24.5" stroke="#FF0000"/>
+                    </svg>    
+                </div>
+                <div class="d-flex align-items-center">
+                    <h1>creativity</h1>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="39" height="39" stroke="#FF0000"/>
+                    </svg>    
+                </div>
+                <div class="d-flex align-items-center">
+                    <h1>creativity</h1>
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="24.5" stroke="#FF0000"/>
+                    </svg>    
+                </div>
+                <div class="d-flex align-items-center">
+                    <h1>creativity</h1>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="39" height="39" stroke="#FF0000"/>
+                    </svg>  
+                </div>
+                <div class="d-flex align-items-center">
+                    <h1>creativity</h1>
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25" r="24.5" stroke="#FF0000"/>
+                    </svg>   
+                </div>
+            </div>                
+            <!-- Slider End -->
+
+            <!-- Footer Section Start -->
+            <footer id="footer">
+                <div class="container footer-item row align-items-center">
+                    <div class="col-xl-8">
+                        <div class="footer-text">
+                            <h1>we promise a talent&creativity <br> forged by passion <br> to create or transform your
+                                identity </h1>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="footer-info d-flex justify-content-between align-items-center">
+                            <a href="/">info@pointandpixels.com</a>
+                            <div class="footer-socials d-flex align-items-center">
+                                <a href="/"><img src="../assets/images/svg/be.svg" alt=""></a>
+                                <a href="/"><img src="../assets/images/svg/instagram.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer Section End -->
+        </main>
+    </section>
+    <!-- Home Section End -->
+
+
+    <!-- Vanila Js -->
+    <script src="../assets/js/app.js"></script>
+    <!-- Jquery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Slick Js -->
+    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider-items').slick({
+                "setting-name": "setting-value",
+                arrows: false,
+                autoplay: true,
+                infinite: true,
+                speed: 700,
+                autoplaySpeed: 500,
+                variableWidth: true,
+                centerMode: true,
+                responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+            })
+        })
+    </script>
+
 </body>
+
 </html>
