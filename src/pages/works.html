@@ -16,9 +16,28 @@
     <!-- Works Section Start -->
     <section id="works">
         <div class="works-section">
+
+            <!-- Work Template Start -->
+            <div class="work-template">
+                <img class="w-100 h-100vh" src="/src/assets/images/png/Frame1.png" alt="">
+                <div class="works-container">
+                    <div class="works-aside-close">
+                        <img src="../assets/images/svg/Frame.svg" alt="" srcset="">
+                    </div>
+                    <div class="relative">
+                        <div class="hero-content">
+                            <h1>this is the tagline</h1>
+                            <p>this is the project name</p>
+                            <span>this is the descipline</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Work Template End -->
+
             <!-- Aside Section Start -->
             <div class="works-aside-section d-flex justify-content-center flex-column">
-                <div class="works-aside-close">
+                <div id="aside-close" class="works-aside-close">
                     <img src="../assets/images/svg/Frame.svg" alt="" srcset="">
                 </div>
                 <aside>
@@ -34,7 +53,7 @@
                                 <a href="/">print</a>
                             </li>
                             <li>
-                                <a href="/">digital</a>
+                                <a href="./descipline/digital.html">digital</a>
                             </li>
                             <li>
                                 <a href="/">packaging</a>
@@ -47,11 +66,12 @@
                 </aside>
             </div>
             <!-- Aside Section End -->
+
             <div class="works-container">
                 <!-- Header Section Start -->
                 <header class="d-flex align-items-center justify-content-between">
                     <div class="header-logo">
-                        <img src="../assets/images/svg/Logo.svg" alt="">
+                        <a href="./home.html"><img src="../assets/images/svg/Logo.svg" alt=""></a>
                     </div>
 
                     <div class="header-content">
@@ -62,7 +82,7 @@
 
                 <!-- Content Start  -->
                 <div class="row">
-                    <div class="hero-content col-md-10">
+                    <div class="hero-content col-md-10 pt-103 pb-120">
                         <!-- <img src="../assets/images/png/content.png" alt="" srcset=""> -->
                         <h1>
                             we may not promise to change the world, but we promise a talent&creativity <br> forged by passion, <br> to inspire those who can.
@@ -75,11 +95,29 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="works-items">
-                            <img class="w-100" src="../assets/images/png/cover1.png" alt="">
+                            <img class="w-100" src="../assets/images/png/work-cover-1.png" alt="">
+                            <div class="overlay-item">
+                                <div class="item-info">
+                                    <h1>historical life</h1>
+                                    <span>print</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works-items">
+                            <img class="w-100" src="../assets/images/png/uiot-cover1.png" alt="">
                             <div class="overlay-item">
                                 <div class="item-info">
                                     <h1>askerov media</h1>
                                     <span>brand identity</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="works-items">
+                            <img class="w-100" src="../assets/images/png/cover2.png" alt="">
+                            <div class="overlay-item">
+                                <div class="item-info">
+                                    <h1>historical life</h1>
+                                    <span>print</span>
                                 </div>
                             </div>
                         </div>
@@ -101,11 +139,12 @@
                 </footer>
                 <!-- Footer Section End -->
             </div>
+
         </div>
     </section>
     <!-- Works Section Start -->
 
     <!-- Vanila Js -->
-    <script src="../assets/js/app.js"></script>
+    <script src="/src/assets/js/works.js"></script>
 </body>
 </html>

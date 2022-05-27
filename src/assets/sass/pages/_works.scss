@@ -1,7 +1,8 @@
 .works-section {
     background: #000000;
     height: 100%;
-    padding-top: 120px;
+    padding-top: $main-measurement;
+    position: relative;
     // position: relative;
     .works-aside-section {
         width: 100%;
@@ -13,13 +14,15 @@
         // bottom: 0;
         background: #ffffff;
         z-index: 9999;
-        transition: all ease .8s;
-        padding-left: 120px;
+        transition: all ease .4s;
+        padding-left: $main-measurement;
         .works-aside-close {
             position: relative;
             top: -6%;
             left: 3%;
-            cursor: pointer;
+            img {
+                cursor: pointer;
+            }
         }
         aside {
             .works-aside-menu {
@@ -44,16 +47,17 @@
     }
     .works-aside-section.active {
         left: 0%;
-        transition: all ease .8s;
+        transition: all ease .4s;
     }
     .works-container {
-        padding-left: 120px;
-        padding-right: 120px;
+        padding-left: $main-measurement;
+        padding-right: $main-measurement;
         .header-content {
             position: fixed;
             right: 0;
-            padding-right: 120px;
+            padding-right: $main-measurement;
             z-index: 999;
+            text-shadow: 2px 2px 5px #000000;            
             cursor: pointer;
             h1 {
                 color: #ffffff;
@@ -65,8 +69,6 @@
             }
         }
         .hero-content {
-            padding-top: 103px;
-            padding-bottom: 120px;
             h1 {
                 // font-style: italic;
                 font-weight: 700;
@@ -78,6 +80,7 @@
         }
         .works-items {
             position: relative;
+            cursor: pointer;
             .overlay-item {
                 position: absolute;
                 top: 0;
@@ -92,8 +95,8 @@
                     width: 180px;
                     height: 180px;
                     border: 6px solid #E50000;
-                    margin-top: 120px;
-                    margin-left: 120px;
+                    margin-top: $main-measurement;
+                    margin-left: $main-measurement;
                     padding: 10px 0px 0px 10px;
                     h1 {
                         color: #FFFFFF;
@@ -111,8 +114,11 @@
         .works-items:hover .overlay-item {
             opacity: 1;
         }
+        .works-items:not(:first-child) {
+            margin-top: $main-measurement;
+        }
         .footer-section {
-            padding-top: 120px;
+            padding-top: $main-measurement;
             padding-bottom: 240px;
             h1 {
                 font-weight: 700;
@@ -123,12 +129,37 @@
             }
             p {
                 width: 490px;
-                padding-top: 120px;
+                padding-top: $main-measurement;
                 font-weight: 400;
                 font-size: 30px;
                 letter-spacing: -0.04em;
                 color: #ffffff;
                 line-height: 1;
+            }
+        }
+    }
+
+    // Work Template
+    .work-template {
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        .works-aside-close {
+            position: absolute;
+            top: 0;
+            padding-top: 141px;
+        }
+        .hero-content {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding-bottom: $main-measurement;
+            p {
+                padding-top: 60px;
             }
         }
     }
