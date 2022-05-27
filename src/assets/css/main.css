@@ -432,3 +432,7 @@ body {
 .works-section .work-template .hero-content p {
   padding-top: 60px;
 }
+
+.works-section .work-template.active {
+  z-index: 9999;
+}
