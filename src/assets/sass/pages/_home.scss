@@ -2,14 +2,6 @@
     background: #000000;
     height: 100vh;
     position: relative;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: flex-end;
-    // align-items: flex-end;
-    // .container {
-    //     max-width: 1919px !important;
-    //     width: 100% !important;
-    // }
     .aside-section {
         width: 100%;
         height: 100vh;
@@ -66,12 +58,6 @@
                         transition: all ease .2s;
                     }
                 }
-                // .aside-items {
-                //     position: relative;
-                //     display: flex;
-                //     align-items: center;
-                //     justify-content: center;
-                // }
                 .aside-content-image {
                     // width: 1000px;
                     z-index: 9999;
@@ -139,18 +125,13 @@
             gap: 2rem;
         }
     }
-    // .slick-container {
-    //     width: 1396px !important;
-    //     margin: 0 auto !important;
-    // }
+
     .slider-items {
         h1 {
             color: #303030;
             letter-spacing: -0.06em;
             font-size: 4rem;
             font-weight: 700;
-            // margin-left: 95px;
-            // margin-right: 95px;
         }
     }
 }
