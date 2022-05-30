@@ -9,14 +9,14 @@ document.querySelector("#aside-close").onclick = () => {
 }
 
 
-const works_items = document.querySelectorAll(".works-items");
-works_items.forEach(item => {
-    if(item){
-        item.addEventListener('click', () => {
-            document.querySelector(".work-template").classList.add('active');
-      });
-    }  
-})
+// const works_items = document.querySelectorAll(".works-items");
+// works_items.forEach(item => {
+//     if(item){
+//         item.addEventListener('click', () => {
+//             document.querySelector(".work-template").classList.add('active');
+//       });
+//     }  
+// })
 
 const works_aside_close = document.querySelector(".works-aside-close");
 if(works_aside_close){
