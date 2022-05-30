@@ -124,6 +124,11 @@
         .footer-socials {
             gap: 2rem;
         }
+        .footer-info {
+            a:hover {
+                color: #E50000 !important;
+            }
+        }
     }
 
     .slider-items {
