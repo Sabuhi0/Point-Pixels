@@ -76,7 +76,7 @@
                     transition: all ease .3s;
                 }
             }
-            .aside-content-content {
+            .aside-content {
                 position: absolute;
                 bottom: 8%;
                 left: 15%;
@@ -98,7 +98,7 @@
                     color: #000000;
                 }
             }
-            .aside-content-content.show {
+            .aside-content.show {
                 opacity: 1;
                 transition: all ease .3s;
             }
