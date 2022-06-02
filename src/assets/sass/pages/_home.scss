@@ -108,8 +108,16 @@
         left: 0%;
         transition: all ease .8s;
     }
+    .slider-items {
+        h1 {
+            color: #303030;
+            letter-spacing: -0.06em;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+    }
     .footer-item {
-        padding-bottom: 18px;
+        margin-bottom: 100px !important;
         padding-top: 30px;
         .footer-text {
             h1 {
@@ -122,21 +130,15 @@
             }
         }
         .footer-socials {
-            gap: 2rem;
+            a:not(:last-child) {
+                margin-left: 124px;
+                margin-right: 89.97px;
+            }
         }
         .footer-info {
             a:hover {
                 color: #E50000 !important;
             }
-        }
-    }
-
-    .slider-items {
-        h1 {
-            color: #303030;
-            letter-spacing: -0.06em;
-            font-size: 4rem;
-            font-weight: 700;
         }
     }
 }
