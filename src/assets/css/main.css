@@ -223,8 +223,15 @@ body {
   transition: all ease .8s;
 }
 
+.home-bg .slider-items h1 {
+  color: #303030;
+  letter-spacing: -0.06em;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
 .home-bg .footer-item {
-  padding-bottom: 18px;
+  margin-bottom: 100px !important;
   padding-top: 30px;
 }
 
@@ -236,19 +243,13 @@ body {
   letter-spacing: -0.06em;
 }
 
-.home-bg .footer-item .footer-socials {
-  gap: 2rem;
+.home-bg .footer-item .footer-socials a:not(:last-child) {
+  margin-left: 124px;
+  margin-right: 89.97px;
 }
 
 .home-bg .footer-item .footer-info a:hover {
   color: #E50000 !important;
-}
-
-.home-bg .slider-items h1 {
-  color: #303030;
-  letter-spacing: -0.06em;
-  font-size: 4rem;
-  font-weight: 700;
 }
 
 @media only screen and (min-width: 1024px) {
