@@ -102,6 +102,64 @@ body {
   height: 100vh;
 }
 
+@media only screen and (min-width: 728px) {
+  .aside-section .aside-section-button {
+    top: 50%;
+    left: -40px;
+    height: 180px;
+    background: #E50000;
+  }
+  .aside-section aside .aside-menus .aside-nav a {
+    font-size: 10rem;
+  }
+  .footer-item h1 {
+    font-size: 25px !important;
+    line-height: 30px;
+  }
+  .footer-item .footer-info {
+    justify-content: flex-end;
+  }
+  .footer-item .footer-socials a:not(:last-child) {
+    margin-left: 124px;
+    margin-right: 89.97px;
+  }
+}
+
+@media only screen and (max-width: 728px) {
+  .aside-section .aside-section-button {
+    top: 40%;
+    left: -40px;
+    height: 160px;
+    background: #E50000;
+  }
+  .footer-item h1 {
+    font-size: 25px !important;
+    line-height: 30px;
+  }
+  .footer-item .footer-info {
+    justify-content: space-between;
+  }
+  .footer-item .footer-socials a:not(:last-child) {
+    margin-right: 33.98px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .aside-section .aside-section-button {
+    top: 35%;
+    left: -40px;
+    height: 155px;
+  }
+  .footer-item h1 {
+    font-size: 16px !important;
+    line-height: 1;
+    padding-bottom: 54px;
+  }
+  .footer-item .footer-info a img {
+    width: 20px;
+  }
+}
+
 .home-bg {
   background: #000000;
   height: 100vh;
@@ -112,7 +170,7 @@ body {
   width: 100%;
   height: 100vh;
   position: fixed;
-  left: 100%;
+  left: 0%;
   top: 0;
   right: 0;
   z-index: 1000;
@@ -122,10 +180,6 @@ body {
 
 .home-bg .aside-section .aside-section-button {
   position: absolute;
-  top: 50%;
-  left: -40px;
-  background: #E50000;
-  height: 180px;
   cursor: pointer;
   transform: translate(0%, -70%);
 }
@@ -159,7 +213,6 @@ body {
 }
 
 .home-bg .aside-section aside .aside-menus .aside-nav a {
-  font-size: 10rem;
   font-weight: 700;
   letter-spacing: -10.4px;
   line-height: 1;
@@ -237,15 +290,13 @@ body {
 
 .home-bg .footer-item .footer-text h1 {
   font-weight: 400;
-  font-size: 25px !important;
   color: #fff;
-  line-height: 30px;
   letter-spacing: -0.06em;
 }
 
-.home-bg .footer-item .footer-socials a:not(:last-child) {
-  margin-left: 124px;
-  margin-right: 89.97px;
+.home-bg .footer-item .footer-info {
+  display: flex;
+  align-items: center;
 }
 
 .home-bg .footer-item .footer-info a:hover {
