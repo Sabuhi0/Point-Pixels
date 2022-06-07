@@ -119,6 +119,7 @@
     background: #000000;
     .header-location {
         h1 {
+            font-family: 'Acumin-Pro-Light';
             color: #FFFFFF;
             line-height: 1;
             letter-spacing: -0.07em;
@@ -132,41 +133,44 @@
             font-weight: 700;
         }
         a {
+            font-family: 'Acumin-Pro-ExtraLight';
             color: #FFFFFF;
             font-weight: 400;
             letter-spacing: -0.07em;
             line-height: 1;
-            transition: all ease .2s;
+            transition: all ease 100ms;
         }
         a:hover {
             color: #E50000 !important;
-            transition: all ease .2s;
+            transition: all ease 100ms;
         }
     }
     .footer-items {
         h1 {
             font-size: 40px;
-            letter-spacing: -0.09em;
+            letter-spacing: -0.06em;
             font-weight: 700;
         }
         .footer-socials {
             a {
+                font-family: 'Acumin-Pro-Light';
                 font-size: 22px;
                 line-height: 1;
-                transition: all ease .2s;
+                transition: all ease 100ms;
             }
             a:hover {
                 color: #E50000 !important;
-                transition: all ease .2s;
+                transition: all ease 100ms;
             }
         }
 
     }
     .footer-desc {
         p {
+            font-family: 'Acumin-Pro-Light';
             font-weight: 400;
             font-size: 18px;
-            letter-spacing: -0.07em;
+            letter-spacing: -0.06em;
             line-height: 1;
         }
     }
