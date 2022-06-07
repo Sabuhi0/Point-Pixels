@@ -21,7 +21,7 @@
     .works-container {
         padding: $main-measurement $main-measurement 0 $main-measurement;
         .header-content {
-            padding-right: $main-measurement;
+            // padding-right: $main-measurement;
             h1 {
                 font-size: 50px;
             }
@@ -76,7 +76,7 @@
     .works-container {
         padding: 87px 87px 0 87px;
         .header-content {
-            padding-right: 87px;
+            // padding-right: 87px;
             h1 {
                 font-size: 50px;
             }
@@ -166,7 +166,7 @@
     .works-container {
         padding: 53px 53px 0 53px;
         .header-content {
-            padding-right: 53px;
+            // padding-right: 53px;
             h1 {
                 font-size: 25px;
             }
@@ -254,10 +254,10 @@
 }
 .works-container {
     .header-content {
-        position: fixed;
-        right: 0;
-        z-index: 999;
-        text-shadow: 2px 2px 5px #000000;            
+        // position: fixed;
+        // right: 0;
+        // z-index: 999;
+        // text-shadow: 2px 2px 5px #000000;            
         cursor: pointer;
         h1 {
             color: #ffffff;
@@ -271,9 +271,9 @@
         h1 {
             // font-style: italic;
             font-weight: 700;
-            letter-spacing: -0.07em;
+            letter-spacing: -0.06em;
             color: #FFFFFF;
-            line-height: 1;
+            line-height: 80px;
         }
     }
     .works-items {
@@ -316,10 +316,11 @@
         h1 {
             font-weight: 700;
             line-height: 1;
-            letter-spacing: -0.07em;
+            letter-spacing: -0.06em;
             color: #ffffff;
         }
         p {
+            font-family: 'Acumin-Pro-Light';
             font-weight: 400;
             letter-spacing: -0.04em;
             color: #ffffff;
