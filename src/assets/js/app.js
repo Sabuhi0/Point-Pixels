@@ -26,27 +26,27 @@ if(aside_close) {
 
 // Maousehover
 
-// const work = (e) => {
-//     e.addEventListener("mouseover", () => {
-//         isMouseHover = true
-//         document.querySelector(".aside-content-image").classList.add('show');
-//     });
-//     e.addEventListener("mouseleave", () => {
-//         isMouseHover = false
-//         document.querySelector(".aside-content-image").classList.remove('show');
-//     });
-// }
+const work = (e) => {
+    e.addEventListener("mouseover", () => {
+        isMouseHover = true
+        document.querySelector(".aside-content-image").classList.add('show');
+    });
+    e.addEventListener("mouseleave", () => {
+        isMouseHover = false
+        document.querySelector(".aside-content-image").classList.remove('show');
+    });
+}
 
-// const contact = (e) => {
-//     e.addEventListener("mouseover", () => {
-//       isMouseHover = true
-//       document.querySelector(".aside-content").classList.add('show');
-//     });
-//     e.addEventListener("mouseleave", () => {
-//         isMouseHover = false
-//         document.querySelector(".aside-content").classList.remove('show');
-//     });
-// }
+const contact = (e) => {
+    e.addEventListener("mouseover", () => {
+      isMouseHover = true
+      document.querySelector(".aside-content").classList.add('show');
+    });
+    e.addEventListener("mouseleave", () => {
+        isMouseHover = false
+        document.querySelector(".aside-content").classList.remove('show');
+    });
+}
 
 // Works
 
