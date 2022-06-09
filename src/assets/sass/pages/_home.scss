@@ -193,13 +193,9 @@
         left: 0%;
         transition: all ease .8s;
     }
-    .slider-items {
-        h1 {
-            color: #303030;
-            letter-spacing: -0.06em;
-            font-size: 4rem;
-            font-weight: 700;
-        }
+    .slider {
+        max-width: 100%;
+        margin-bottom: 30px !important;
     }
     .footer-item {
         margin-bottom: 45px !important;

@@ -292,11 +292,9 @@ body {
   transition: all ease .8s;
 }
 
-.home-bg .slider-items h1 {
-  color: #303030;
-  letter-spacing: -0.06em;
-  font-size: 4rem;
-  font-weight: 700;
+.home-bg .slider {
+  max-width: 100%;
+  margin-bottom: 30px !important;
 }
 
 .home-bg .footer-item {
