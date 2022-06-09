@@ -347,6 +347,7 @@ body {
   }
   .works-container .row .hero-content h1 {
     font-size: 80px;
+    line-height: 80px;
   }
   .works-container .works-footer-section {
     padding-top: 120px;
@@ -385,8 +386,11 @@ body {
     font-size: 50px;
   }
   .works-container .row .hero-content {
-    font-size: 48px;
     padding: 87px 0 87px 0;
+  }
+  .works-container .row .hero-content h1 {
+    font-size: 60px;
+    line-height: 60px;
   }
   .works-container .works-footer-section {
     padding: 87px 0 87px 0;
@@ -416,6 +420,10 @@ body {
   .works-container .header-content h1 {
     font-size: 40px;
   }
+  .works-container .row .hero-content h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
   .works-container .works-footer-section h1 {
     font-size: 80px;
   }
@@ -442,8 +450,11 @@ body {
     font-size: 25px;
   }
   .works-container .row .hero-content {
-    font-size: 30px;
     padding: 53px 0 53px 0;
+  }
+  .works-container .row .hero-content h1 {
+    font-size: 40px;
+    line-height: 40px;
   }
   .works-container .works-footer-section {
     padding: 53px 0 53px 0;
@@ -463,6 +474,10 @@ body {
 @media only screen and (max-width: 460px) {
   .works-container .header-content h1 {
     font-size: 20px;
+  }
+  .works-container .row .hero-content h1 {
+    font-size: 30px;
+    line-height: 30px;
   }
 }
 
@@ -529,7 +544,6 @@ body {
   font-weight: 700;
   letter-spacing: -0.06em;
   color: #FFFFFF;
-  line-height: 80px;
 }
 
 .works-container .works-items {
