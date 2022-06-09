@@ -31,6 +31,7 @@
                 padding: 103px 0 $main-measurement 0;
                 h1 {
                     font-size: 80px;
+                    line-height: 80px;
                 }
             }
         }
@@ -83,8 +84,11 @@
         }
         .row {
             .hero-content {
-                font-size: 48px;
                 padding: 87px 0 87px 0;
+                h1 {
+                    font-size: 60px;
+                    line-height: 60px;
+                }
             }
         }
         .works-footer-section {
@@ -131,6 +135,14 @@
                 font-size: 40px;
             }
         }
+        .row {
+            .hero-content {
+                h1 {
+                    font-size: 50px;
+                    line-height: 50px;                
+                }
+            }
+        }
         .works-footer-section {
             // padding: 87px 0 87px 0;
             h1 {
@@ -173,8 +185,11 @@
         }
         .row {
             .hero-content {
-                font-size: 30px;
                 padding: 53px 0 53px 0;
+                h1 {
+                    font-size: 40px;
+                    line-height: 40px;                
+                }
             }
         }
         .works-footer-section {
@@ -198,6 +213,14 @@
         .header-content {
             h1 {
                 font-size: 20px;
+            }
+        }
+        .row {
+            .hero-content {
+                h1 {
+                    font-size: 30px;
+                    line-height: 30px;                
+                }
             }
         }
     }
@@ -236,12 +259,12 @@
                             font-weight: 700;
                             transition: all ease .2s;
                             line-height: 1;
-                       }
+                        }
                        a:hover {
                            color: #E50000 !important;
                            padding-left: 45px;
                            transition: all ease .2s;
-                       }
+                        }
                     }
                 }
             }
@@ -273,7 +296,6 @@
             font-weight: 700;
             letter-spacing: -0.06em;
             color: #FFFFFF;
-            line-height: 80px;
         }
     }
     .works-items {
