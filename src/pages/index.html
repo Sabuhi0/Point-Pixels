@@ -132,22 +132,9 @@
                     </div>
                 </div> -->
                 
-                <div class="slider autoplay slick-initialized slick-slider slick-dotted" role="toolbar">
+                <div class="slider-container autoplay slick-initialized slick-slider slick-dotted" role="toolbar">
                     <div aria-live="polite" class="slick-list draggable">
-                        <div class="slick-track"
-                            style="opacity: 1; width: 2244px; transform: translate3d(-935px, 0px, 0px);" role="listbox">
-                            <div class="slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true"
-                                style="width: 187px;" tabindex="-1">
-                                <h3>4</h3>
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true"
-                                style="width: 187px;" tabindex="-1">
-                                <h3>5</h3>
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true"
-                                style="width: 187px;" tabindex="-1">
-                                <h3>6</h3>
-                            </div>
+                        <div class="slick-track" role="listbox">
                             <div class="slick-slide" data-slick-index="0" aria-hidden="true" style="width: 187px;"
                                 tabindex="-1" role="option" aria-describedby="slick-slide80">
                                 <h3>1</h3>
@@ -171,18 +158,6 @@
                             <div class="slick-slide" data-slick-index="5" aria-hidden="true" style="width: 187px;"
                                 tabindex="-1" role="option" aria-describedby="slick-slide85">
                                 <h3>6</h3>
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="6" aria-hidden="true"
-                                style="width: 187px;" tabindex="-1">
-                                <h3>1</h3>
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true"
-                                style="width: 187px;" tabindex="-1">
-                                <h3>2</h3>
-                            </div>
-                            <div class="slick-slide slick-cloned" data-slick-index="8" aria-hidden="true"
-                                style="width: 187px;" tabindex="-1">
-                                <h3>3</h3>
                             </div>
                         </div>
                     </div>
@@ -230,7 +205,7 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $(".autoplay").slick({
+            $(".slick-track").slick({
                 "setting-name": "setting-value",
                 arrows: false,
                 autoplay: true,
