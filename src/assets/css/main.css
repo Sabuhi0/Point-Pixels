@@ -123,7 +123,7 @@ body {
     top: 50%;
     left: -40px;
     height: 140px;
-    background: #E50000;
+    transform: translate(0%, -100%);
   }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 10rem;
@@ -143,10 +143,10 @@ body {
 
 @media only screen and (max-width: 728px) {
   .aside-section .aside-section-button {
-    top: 40%;
+    top: 50%;
     left: -40px;
-    height: 160px;
-    background: #E50000;
+    height: 140px;
+    transform: translate(0%, -155%);
   }
   .footer-item h1 {
     font-size: 25px !important;
@@ -162,9 +162,10 @@ body {
 
 @media only screen and (max-width: 460px) {
   .aside-section .aside-section-button {
-    top: 35%;
+    top: 50%;
     left: -40px;
-    height: 155px;
+    height: 140px;
+    transform: translate(0%, -155%);
   }
   .footer-item h1 {
     font-size: 16px !important;
@@ -197,7 +198,7 @@ body {
 .home-bg .aside-section .aside-section-button {
   position: absolute;
   cursor: pointer;
-  transform: translate(0%, -100%);
+  background: #E50000;
 }
 
 .home-bg .aside-section .aside-section-button p {
