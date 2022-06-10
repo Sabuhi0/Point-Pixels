@@ -9,7 +9,7 @@
             left: -40px;
             // width: 40px;
             height: 140px;
-            background: #E50000;
+            transform: translate(-0%, -100%); 
         }
         aside {
             .aside-menus {
@@ -41,10 +41,11 @@
 @media only screen and (max-width: 728px) {
     .aside-section {
         .aside-section-button {
-            top: 40%;
+            top: 50%;
             left: -40px;
-            height: 160px;
-            background: #E50000;
+            // width: 40px;
+            height: 140px;
+            transform: translate(-0%, -155%); 
         }
     }
     .footer-item {
@@ -67,11 +68,13 @@
 @media only screen and (max-width: 460px) {
     .aside-section {
         .aside-section-button {
-            top: 35%;
+            top: 50%;
             left: -40px;
-            height: 155px;
+            // width: 40px;
+            height: 140px;
+            transform: translate(-0%, -155%); 
         }
-    }
+    }  
     .footer-item {
         h1 {
             font-size: 16px !important;
@@ -105,7 +108,7 @@
         .aside-section-button {
             position: absolute;
             cursor: pointer;
-            transform: translate(-0%, -100%);
+            background: #E50000;
             p {
                 margin-left: -34px;
                 color: #fff;
