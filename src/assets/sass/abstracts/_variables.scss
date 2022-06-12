@@ -1,6 +1,7 @@
-// Acumin Font
-@import url("//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept");
-@import url("https://use.typekit.net/tmt6ast.css");
+@font-face {
+    font-family: "Acumin-Variable-Concept";
+    src: url("/src/assets/fonts/AcuminVariableConcept.ttf");
+}
 
 @font-face {
     font-family: 'Acumin-Pro-Light';
@@ -11,4 +12,5 @@
     font-family: 'Acumin-Pro-ExtraLight';
     src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-ExtraLight.ttf");
 }
+
 $main-measurement: 120px;
