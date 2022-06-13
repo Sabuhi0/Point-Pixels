@@ -29,11 +29,11 @@ if(aside_close) {
 const work = (e) => {
     e.addEventListener("mouseover", () => {
         isMouseHover = true
-        document.querySelector(".aside-content-image").classList.add('show');
+        document.querySelector(".aside-image").classList.add('show');
     });
     e.addEventListener("mouseleave", () => {
         isMouseHover = false
-        document.querySelector(".aside-content-image").classList.remove('show');
+        document.querySelector(".aside-image").classList.remove('show');
     });
 }
 
