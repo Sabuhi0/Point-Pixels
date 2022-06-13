@@ -476,7 +476,6 @@ body {
 @media only screen and (max-width: 460px) {
   .works-aside-section .works-aside-close {
     top: -30%;
-    display: none;
   }
   .works-aside-section .works-aside-close img {
     width: 30px;
