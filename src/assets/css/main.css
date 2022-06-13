@@ -211,11 +211,12 @@ body {
 }
 
 .home-bg .aside-section .aside-section-button p {
-  margin-left: -34px;
+  margin-left: -27px;
   color: #fff;
   font-weight: 700;
   transform: rotate(90deg);
   margin-top: 45px;
+  letter-spacing: -0.06em;
 }
 
 .home-bg .aside-section aside .aside-close {
