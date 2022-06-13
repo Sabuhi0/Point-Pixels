@@ -246,6 +246,7 @@ body {
   }
   .aside-section aside .aside-menus .aside-nav {
     padding-right: 53px;
+    padding-bottom: 53px;
   }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 87px;
