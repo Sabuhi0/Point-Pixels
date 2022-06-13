@@ -440,7 +440,7 @@ body {
     padding-bottom: 53px;
   }
   .works-aside-section .works-aside-close {
-    top: -35%;
+    top: -28%;
   }
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 50px;
@@ -474,9 +474,6 @@ body {
 }
 
 @media only screen and (max-width: 460px) {
-  .works-aside-section .works-aside-close {
-    top: -20% !important;
-  }
   .works-aside-section .works-aside-close img {
     width: 30px;
   }
