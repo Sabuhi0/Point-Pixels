@@ -210,7 +210,10 @@
 
 @media only screen and (max-width: 460px) {
     .works-aside-section {
+        // padding-left: 48px;
+        // padding-bottom: 48px;
         .works-aside-close {
+            top: -30%;
             img {
                 width: 30px;
             }
