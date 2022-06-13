@@ -5,6 +5,9 @@
 @media only screen and (min-width: 728px) {
     .aside-section {
         .aside-section-button {
+            .d-none-text {
+                display: none;
+            }
             top: 50%;
             left: -40px;
             // width: 40px;
@@ -46,6 +49,9 @@
             // width: 40px;
             height: 140px;
             transform: translate(-0%, -155%); 
+            p:nth-child(1) {
+                display: none;
+            }
         }
     }
     .footer-item {

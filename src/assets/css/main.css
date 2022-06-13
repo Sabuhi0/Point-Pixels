@@ -128,6 +128,9 @@ body {
     height: 140px;
     transform: translate(0%, -100%);
   }
+  .aside-section .aside-section-button .d-none-text {
+    display: none;
+  }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 10rem;
   }
@@ -150,6 +153,9 @@ body {
     left: -40px;
     height: 140px;
     transform: translate(0%, -155%);
+  }
+  .aside-section .aside-section-button p:nth-child(1) {
+    display: none;
   }
   .footer-item h1 {
     font-size: 25px !important;
