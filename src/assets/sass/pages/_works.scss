@@ -161,7 +161,7 @@
         padding-left: 53px;
         padding-bottom: 53px;
         .works-aside-close {
-            top: -28%;
+            top: -45%;
         }
         aside {
             .works-aside-menu {
@@ -211,6 +211,7 @@
 @media only screen and (max-width: 460px) {
     .works-aside-section {
         .works-aside-close {
+            top: -28%;
             img {
                 width: 30px;
             }
