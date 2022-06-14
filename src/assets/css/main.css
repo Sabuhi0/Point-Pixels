@@ -421,11 +421,14 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .works-aside-section {
-    padding-left: 120px;
+    padding: 0px 0px 35px 120px;
     justify-content: center;
   }
   .works-aside-section .works-aside-close {
-    margin-top: 60px;
+    margin-top: 45px;
+  }
+  .works-aside-section .works-aside-close img {
+    width: 50px;
   }
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 80px;
@@ -467,7 +470,10 @@ body {
     justify-content: end;
   }
   .works-aside-section .works-aside-close {
-    margin-top: 50px;
+    margin-top: 35px;
+  }
+  .works-aside-section .works-aside-close img {
+    width: 50px;
   }
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 70px;

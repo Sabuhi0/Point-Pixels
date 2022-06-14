@@ -1,9 +1,12 @@
 @media only screen and (min-width: 1024px) {
     .works-aside-section {
-        padding-left: $main-measurement;
+        padding: 0px 0px 35px $main-measurement;
         justify-content: center;
         .works-aside-close {
-          margin-top: 60px;
+            margin-top: 45px;
+            img {
+                width: 50px;
+            }
         }
         aside {
             .works-aside-menu {
@@ -58,7 +61,10 @@
         padding-bottom: 87px;
         justify-content: end;
         .works-aside-close {
-          margin-top: 50px;
+          margin-top: 35px;
+            img {
+                width: 50px;
+            }
             
         }
         aside {
@@ -210,7 +216,6 @@
 @media only screen and (max-width: 460px) {
     .works-aside-section {
         .works-aside-close {
-            
             img {
                 width: 30px;
             }
