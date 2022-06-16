@@ -77,14 +77,13 @@
 @media only screen and (min-width: 728px) {
     .aside-section {
         .aside-section-button {
+            top: 50%;
+            left: -61px;
+            height: 240px;
+            transform: translate(-0%, -80%); 
             .d-none-text {
                 display: none;
             }
-            top: 50%;
-            left: -40px;
-            // width: 40px;
-            height: 140px;
-            transform: translate(-0%, -100%); 
         }
     }
     .footer-item {
@@ -228,11 +227,12 @@
             cursor: pointer;
             background: #E50000;
             p {
-                margin-left: -27px;
+                margin-left: -30px;
+                font-size: 20px;
                 color: #fff;
                 font-weight: 700;
                 transform: rotate(90deg);
-                margin-top: 45px;
+                margin-top: 48px;
                 letter-spacing: -0.06em;
             }
         }
