@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Acumin-Variable-Concept";
-  src: url("/src/assets/fonts/AcuminVariableConcept.ttf");
+  src: url("/src/assets/fonts/9d98f534f006d8c613a5dc3ace7fe507.ttf");
 }
 
 @font-face {
   font-family: 'Acumin-Pro-Light';
-  src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-Light.ttf");
+  src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-Book.ttf");
 }
 
 @font-face {
@@ -186,7 +186,7 @@ body {
     padding-right: 87px;
   }
   .aside-section aside .aside-menus .aside-nav a {
-    font-size: 100px;
+    font-size: 120px;
   }
   .aside-section aside .aside-image {
     left: 17%;
@@ -218,8 +218,8 @@ body {
     display: none;
   }
   .aside-section .aside-section-button p {
-    margin-left: -30px;
-    font-size: 20px;
+    margin-left: -38px;
+    font-size: 30px;
     margin-top: 48px;
   }
   .footer-item h1 {
@@ -246,7 +246,7 @@ body {
     display: none;
   }
   .aside-section .aside-section-button p {
-    margin-left: -43px;
+    margin-left: -30px;
     font-size: 20px;
     margin-top: 48px;
   }
@@ -363,7 +363,7 @@ body {
 
 .home-bg .aside-section aside .aside-menus .aside-nav a {
   font-weight: 700;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.06em;
   line-height: 1;
   transition: all ease .2s;
 }
