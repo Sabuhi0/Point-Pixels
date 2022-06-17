@@ -137,7 +137,7 @@ body {
     height: 240px;
     top: 50%;
     left: -61px;
-    transform: translate(0%, -80%) !important;
+    transform: translate(0%, -75%) !important;
   }
   .aside-section aside .aside-close img {
     width: 50px;
