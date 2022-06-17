@@ -1,5 +1,33 @@
+@media only screen and (min-width: 1920px) {
+    .aside-section {
+        .aside-section-button {
+            top: 50%;
+            left: -61px;
+            height: 240px;
+            transform: translate(-0%, -115%) !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .aside-section {
+        .aside-section-button {
+            top: 50%;
+            left: -61px;
+            height: 240px;
+            transform: translate(-0%, -105%) !important;
+        }
+    }
+}
+
 @media only screen and (min-width: 1110px) {
     .aside-section {
+        .aside-section-button {
+            transform: translate(-0%, -80%); 
+            .d-none-text {
+                display: none;
+            }
+        }
         aside {
             .aside-menus {
                 align-items: center;
@@ -77,9 +105,6 @@
 @media only screen and (min-width: 728px) {
     .aside-section {
         .aside-section-button {
-            top: 50%;
-            left: -61px;
-            height: 240px;
             transform: translate(-0%, -80%); 
             .d-none-text {
                 display: none;
