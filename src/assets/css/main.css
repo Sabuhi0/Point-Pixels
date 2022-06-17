@@ -2,17 +2,14 @@
   font-family: "Acumin-Variable-Concept";
   src: url("/src/assets/fonts/9d98f534f006d8c613a5dc3ace7fe507.ttf");
 }
-
 @font-face {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
   src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-Book.ttf");
 }
-
 @font-face {
-  font-family: 'Acumin-Pro-ExtraLight';
+  font-family: "Acumin-Pro-ExtraLight";
   src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-ExtraLight.ttf");
 }
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,7 +61,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -123,20 +120,18 @@ body {
 
 @media only screen and (min-width: 1920px) {
   .aside-section .aside-section-button {
-    top: 50%;
-    left: -61px;
     height: 240px;
-    transform: translate(0%, -80%) !important;
+    transform: translate(0%, -90%) !important;
   }
   .aside-section aside .aside-close img {
     width: 50px;
   }
+  .aside-section aside .aside-image img {
+    width: 100% !important;
+  }
 }
-
 @media only screen and (max-width: 1920px) {
   .aside-section .aside-section-button {
-    top: 50%;
-    left: -61px;
     height: 240px;
     transform: translate(0%, -80%) !important;
   }
@@ -144,7 +139,6 @@ body {
     width: 50px;
   }
 }
-
 @media only screen and (min-width: 1110px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -80%);
@@ -180,10 +174,10 @@ body {
   }
   .aside-section aside .aside-image img {
     width: 73%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
-
 @media only screen and (max-width: 1110px) {
   .aside-section aside .aside-menus {
     align-items: flex-end;
@@ -215,7 +209,6 @@ body {
     padding-top: 23px;
   }
 }
-
 @media only screen and (min-width: 728px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -80%);
@@ -228,6 +221,7 @@ body {
     font-size: 30px;
     margin-top: 48px;
   }
+
   .footer-item h1 {
     font-size: 25px !important;
     line-height: 25px;
@@ -240,13 +234,12 @@ body {
     margin-right: 89.97px;
   }
 }
-
 @media only screen and (max-width: 728px) {
   .aside-section .aside-section-button {
     top: 50%;
     left: -40px;
     height: 155px;
-    transform: translate(0%, -155%);
+    transform: translate(0%, -162%) !important;
   }
   .aside-section .aside-section-button p:nth-child(1) {
     display: none;
@@ -259,6 +252,7 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 90px;
   }
+
   .footer-item h1 {
     font-size: 25px !important;
     line-height: 30px;
@@ -270,7 +264,6 @@ body {
     margin-right: 33.98px;
   }
 }
-
 @media only screen and (max-width: 460px) {
   .aside-section aside .aside-close img {
     width: 30px;
@@ -290,7 +283,8 @@ body {
   .aside-section aside .aside-image img {
     width: 80%;
     transform: rotate(90deg);
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .aside-section aside .aside-content {
     bottom: 50%;
@@ -305,6 +299,7 @@ body {
     font-size: 10px;
     padding-top: 11px;
   }
+
   .footer-item h1 {
     font-size: 16px !important;
     line-height: 1;
@@ -314,13 +309,11 @@ body {
     width: 20px;
   }
 }
-
 .home-bg {
   background: #000000;
   height: 100vh;
   position: relative;
 }
-
 .home-bg .aside-section {
   width: 100%;
   height: 100vh;
@@ -329,121 +322,103 @@ body {
   top: 0;
   right: 0;
   z-index: 1000;
-  transition: all ease .8s;
+  transition: all ease 0.8s;
   background: #E50000;
 }
-
 .home-bg .aside-section .aside-section-button {
   position: absolute;
   cursor: pointer;
+  top: 50%;
+  left: -61px;
   background: #E50000;
 }
-
 .home-bg .aside-section .aside-section-button p {
   color: #fff;
   font-weight: 700;
   transform: rotate(90deg);
   letter-spacing: -0.06em;
 }
-
 .home-bg .aside-section aside .aside-close {
   position: absolute;
   top: 6%;
   left: 8%;
   cursor: pointer;
 }
-
 .home-bg .aside-section aside .aside-menus {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
 }
-
 .home-bg .aside-section aside .aside-menus .aside-nav {
   display: flex;
   flex-direction: column;
   z-index: 9999;
   text-align: end;
 }
-
 .home-bg .aside-section aside .aside-menus .aside-nav a {
   font-weight: 700;
   letter-spacing: -0.06em;
   line-height: 1;
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
-
 .home-bg .aside-section aside .aside-menus .aside-nav a:hover {
   transform: translateX(-50px);
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
-
 .home-bg .aside-section aside .aside-image {
   z-index: 9999;
   position: absolute;
   opacity: 0;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
-
 .home-bg .aside-section aside .aside-image.show {
   opacity: 1;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
-
 .home-bg .aside-section aside .aside-content {
   position: absolute;
   opacity: 0;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
-
 .home-bg .aside-section aside .aside-content h1 {
   color: #000000;
   font-weight: 700;
   line-height: 1;
 }
-
 .home-bg .aside-section aside .aside-content p {
   line-height: 1;
   color: #000000;
 }
-
 .home-bg .aside-section aside .aside-content.show {
   opacity: 1;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
-
 .home-bg .aside-section.active {
   left: 0%;
-  transition: all ease .8s;
+  transition: all ease 0.8s;
 }
-
 .home-bg .slider {
   max-width: 100%;
-  margin-bottom: 30px !important;
+  margin-bottom: 90px !important;
 }
-
 .home-bg .footer-item {
   margin-bottom: 100px !important;
   padding-top: 30px;
 }
-
 .home-bg .footer-item .footer-text h1 {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
   font-weight: 400;
   color: #fff;
   letter-spacing: -0.06em;
 }
-
 .home-bg .footer-item .footer-info {
   display: flex;
   align-items: center;
 }
-
 .home-bg .footer-item .footer-info a {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
 }
-
 .home-bg .footer-item .footer-info a:hover {
   color: #E50000 !important;
   transition: all ease 100ms;
@@ -463,6 +438,7 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 80px;
   }
+
   .works-container {
     padding: 120px 120px 0 120px;
   }
@@ -492,7 +468,6 @@ body {
     margin-top: 120px;
   }
 }
-
 @media only screen and (max-width: 1024px) {
   .works-aside-section {
     padding-left: 120px;
@@ -508,6 +483,7 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 70px;
   }
+
   .works-container {
     padding: 87px 87px 0 87px;
   }
@@ -538,7 +514,6 @@ body {
     margin-top: 87px;
   }
 }
-
 @media only screen and (max-width: 728px) {
   .works-aside-section {
     padding-left: 87px;
@@ -546,6 +521,7 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 60px;
   }
+
   .works-container .header-content h1 {
     font-size: 40px;
   }
@@ -560,7 +536,6 @@ body {
     font-size: 22px;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .works-aside-section {
     padding-left: 53px;
@@ -569,6 +544,7 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 50px;
   }
+
   .works-container {
     padding: 53px 53px 0 53px;
   }
@@ -596,11 +572,11 @@ body {
     margin-top: 53px;
   }
 }
-
 @media only screen and (max-width: 460px) {
   .works-aside-section .works-aside-close img {
     width: 30px;
   }
+
   .works-container .header-content h1 {
     font-size: 20px;
   }
@@ -609,13 +585,11 @@ body {
     line-height: 30px;
   }
 }
-
 .works-section {
   background: #000000;
   height: 100%;
   position: relative;
 }
-
 .works-section .works-aside-section {
   width: 100%;
   height: 100vh;
@@ -628,55 +602,46 @@ body {
   right: 0;
   background: #ffffff;
   z-index: 9999;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
 }
-
 .works-section .works-aside-section .works-aside-close img {
   cursor: pointer;
 }
-
 .works-section .works-aside-section aside .works-aside-menu ul li a {
   color: #000000 !important;
   font-weight: 700;
-  transition: all ease .2s;
+  transition: all ease 0.2s;
   line-height: 1;
 }
-
 .works-section .works-aside-section aside .works-aside-menu ul li a:hover {
   color: #E50000 !important;
   padding-left: 45px;
-  transition: all ease .2s;
+  transition: all ease 0.2s;
 }
-
 .works-section .works-aside-section.active {
   left: 0%;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
 }
 
 .works-container .header-content {
   cursor: pointer;
 }
-
 .works-container .header-content h1 {
   color: #ffffff;
   font-weight: 700;
 }
-
 .works-container .header-content h1 span {
   color: #E50000;
 }
-
 .works-container .hero-content h1 {
   font-weight: 700;
   letter-spacing: -0.06em;
   color: #FFFFFF;
 }
-
 .works-container .works-items {
   position: relative;
   cursor: pointer;
 }
-
 .works-container .works-items .overlay-item {
   position: absolute;
   top: 0;
@@ -684,11 +649,10 @@ body {
   left: 0;
   right: 0;
   opacity: 0;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
   background: rgba(176, 176, 176, 0.5);
   border-radius: 4px;
 }
-
 .works-container .works-items .overlay-item .item-info {
   width: 180px;
   height: 180px;
@@ -697,32 +661,27 @@ body {
   margin-left: 120px;
   padding: 10px 0px 0px 10px;
 }
-
 .works-container .works-items .overlay-item .item-info h1 {
   color: #FFFFFF;
   font-size: 20px;
   font-weight: 700;
 }
-
 .works-container .works-items .overlay-item .item-info span {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 400;
 }
-
 .works-container .works-items:hover .overlay-item {
   opacity: 1;
 }
-
 .works-container .works-footer-section h1 {
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.06em;
   color: #ffffff;
 }
-
 .works-container .works-footer-section p {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
   font-weight: 400;
   letter-spacing: -0.04em;
   color: #ffffff;
@@ -733,19 +692,16 @@ body {
   background: #FFFFFF;
   height: 100%;
 }
-
 .works-template .hero-section {
   width: 100%;
   height: 100vh;
   position: relative;
 }
-
 .works-template .hero-section .works-aside-close {
   position: absolute;
   top: 0;
   padding-top: 100px;
 }
-
 .works-template .hero-section .hero-content {
   position: absolute;
   left: 0;
@@ -753,24 +709,20 @@ body {
   padding: 0 0 35px 120px;
   color: #ffffff;
 }
-
 .works-template .hero-section .hero-content h1 {
   font-size: 80px;
 }
-
 .works-template .hero-section .hero-content p {
   padding-top: 60px;
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
 }
-
 .works-template .hero-section .hero-content span {
   font-size: 28px;
   font-weight: 400;
   line-height: 1;
 }
-
 .works-template .project-desc h1 {
   color: #000000;
   font-size: 30px;
@@ -782,35 +734,41 @@ body {
     height: 100vh;
     padding-top: 120px;
   }
+
   .contact-container {
     padding: 0 120px 0 120px;
   }
+
   .header-location h1 {
     font-size: 25px;
   }
+
   .main-content h1 {
     font-size: 80px;
   }
   .main-content a {
     font-size: 60px;
   }
+
   .footer-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .footer-desc p {
     width: 381px;
   }
 }
-
 @media only screen and (max-width: 1024px) {
   .contact-container {
     padding: 87px 87px 0 87px;
   }
+
   .header-location h1 {
     font-size: 20px;
   }
+
   .main-content h1 {
     font-size: 70px;
     padding-top: 53px;
@@ -818,6 +776,7 @@ body {
   .main-content a {
     font-size: 50px;
   }
+
   .footer-section {
     padding-top: 73px;
     align-items: flex-start;
@@ -827,93 +786,89 @@ body {
     padding-top: 28px;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .contact-container {
     padding: 53px 53px 0 53px;
   }
+
   .main-content h1 {
     font-size: 60px;
   }
   .main-content a {
     font-size: 30px;
   }
+
   .header-location h1 {
     font-size: 18px;
   }
+
   .header-logo a img {
     width: 95px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
+
   .footer-desc p {
     width: none;
   }
 }
-
 @media only screen and (max-width: 460px) {
   .main-content a {
     font-size: 22px;
   }
+
   .header-location h1 {
     font-size: 10px;
   }
+
   .header-logo a img {
     width: 54px;
   }
 }
-
 .bg-fon {
   background: #000000;
 }
-
 .bg-fon .header-location h1 {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
   color: #FFFFFF;
   line-height: 1;
   letter-spacing: -0.07em;
 }
-
 .bg-fon .main-content h1 {
   line-height: 1;
   color: #FFFFFF;
   letter-spacing: -0.07em;
   font-weight: 700;
 }
-
 .bg-fon .main-content a {
-  font-family: 'Acumin-Pro-ExtraLight';
+  font-family: "Acumin-Pro-ExtraLight";
   color: #FFFFFF;
   font-weight: 400;
   letter-spacing: -0.07em;
   line-height: 1;
   transition: all ease 100ms;
 }
-
 .bg-fon .main-content a:hover {
   color: #E50000 !important;
   transition: all ease 100ms;
 }
-
 .bg-fon .footer-items h1 {
   font-size: 40px;
   letter-spacing: -0.06em;
   font-weight: 700;
 }
-
 .bg-fon .footer-items .footer-socials a {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
   font-size: 22px;
   line-height: 1;
   transition: all ease 100ms;
 }
-
 .bg-fon .footer-items .footer-socials a:hover {
   color: #E50000 !important;
   transition: all ease 100ms;
 }
-
 .bg-fon .footer-desc p {
-  font-family: 'Acumin-Pro-Light';
+  font-family: "Acumin-Pro-Light";
   font-weight: 400;
   font-size: 18px;
   letter-spacing: -0.06em;

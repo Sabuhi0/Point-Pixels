@@ -1,15 +1,20 @@
 @media only screen and (min-width: 1920px) {
     .aside-section {
         .aside-section-button {
-            top: 50%;
-            left: -61px;
             height: 240px;
-            transform: translate(-0%, -80%) !important;
+            transform: translate(-0%, -90%) !important;
         }
         aside {
             .aside-close {
                 img {
                     width: 50px;
+                }
+            }
+            .aside-image {
+                // left: 15%;
+                // top: 16%;
+                img {
+                    width: 100% !important;
                 }
             }
         }
@@ -19,8 +24,6 @@
 @media only screen and (max-width: 1920px) {
     .aside-section {
         .aside-section-button {
-            top: 50%;
-            left: -61px;
             height: 240px;
             transform: translate(-0%, -80%) !important;
         }
@@ -37,7 +40,7 @@
 @media only screen and (min-width: 1110px) {
     .aside-section {
         .aside-section-button {
-            transform: translate(-0%, -80%); 
+            transform: translate(-0%, -80%);
             .d-none-text {
                 display: none;
             }
@@ -92,7 +95,7 @@
             }
             .aside-image {
                 left: 17%;
-                top: -32%;                
+                top: -32%;
                 img {
                     width: 100%;
                     // object-fit: contain;
@@ -119,7 +122,7 @@
 @media only screen and (min-width: 728px) {
     .aside-section {
         .aside-section-button {
-            transform: translate(-0%, -80%); 
+            transform: translate(-0%, -80%);
             .d-none-text {
                 display: none;
             }
@@ -154,7 +157,7 @@
             left: -40px;
             // width: 40px;
             height: 155px;
-            transform: translate(-0%, -155%); 
+            transform: translate(-0%, -162%) !important;
             p:nth-child(1) {
                 display: none;
             }
@@ -218,7 +221,7 @@
             .aside-image {
                 width: 136%;
                 top: 27%;
-                left: -4%;               
+                left: -4%;
                 img {
                     width: 80%;
                     transform: rotate(90deg);
@@ -240,7 +243,7 @@
                 }
             }
         }
-    }  
+    }
     .footer-item {
         h1 {
             font-size: 16px !important;
@@ -274,6 +277,8 @@
         .aside-section-button {
             position: absolute;
             cursor: pointer;
+            top: 50%;
+            left: -61px;
             background: #E50000;
             p {
                 color: #fff;
@@ -353,7 +358,7 @@
     }
     .slider {
         max-width: 100%;
-        margin-bottom: 30px !important;
+        margin-bottom: 90px !important;
     }
     .footer-item {
         margin-bottom: 100px !important;
