@@ -165,9 +165,9 @@
     .works-aside-section {
         padding-left: 53px;
         padding-bottom: 53px;
-        .works-aside-close {
+        // .works-aside-close {
             
-        }
+        // }
         aside {
             .works-aside-menu {
                 ul {
@@ -398,12 +398,11 @@
             }
         }
    }
-   .project-desc {
-       h1 {
+    .project-desc {
+        h1 {
             color: #000000;
             font-size: 30px;
             letter-spacing: -0.06em;
        }
-
    }
 }

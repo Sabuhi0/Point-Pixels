@@ -121,7 +121,31 @@ body {
   height: 100vh;
 }
 
+@media only screen and (min-width: 1920px) {
+  .aside-section .aside-section-button {
+    top: 50%;
+    left: -61px;
+    height: 240px;
+    transform: translate(0%, -80%) !important;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .aside-section .aside-section-button {
+    top: 50%;
+    left: -61px;
+    height: 240px;
+    transform: translate(0%, -80%) !important;
+  }
+}
+
 @media only screen and (min-width: 1110px) {
+  .aside-section .aside-section-button {
+    transform: translate(0%, -80%);
+  }
+  .aside-section .aside-section-button .d-none-text {
+    display: none;
+  }
   .aside-section aside .aside-menus {
     align-items: center;
   }
@@ -188,13 +212,15 @@ body {
 
 @media only screen and (min-width: 728px) {
   .aside-section .aside-section-button {
-    top: 50%;
-    left: -40px;
-    height: 140px;
-    transform: translate(0%, -100%);
+    transform: translate(0%, -80%);
   }
   .aside-section .aside-section-button .d-none-text {
     display: none;
+  }
+  .aside-section .aside-section-button p {
+    margin-left: -30px;
+    font-size: 20px;
+    margin-top: 48px;
   }
   .footer-item h1 {
     font-size: 25px !important;
@@ -213,11 +239,16 @@ body {
   .aside-section .aside-section-button {
     top: 50%;
     left: -40px;
-    height: 140px;
+    height: 155px;
     transform: translate(0%, -155%);
   }
   .aside-section .aside-section-button p:nth-child(1) {
     display: none;
+  }
+  .aside-section .aside-section-button p {
+    margin-left: -43px;
+    font-size: 20px;
+    margin-top: 48px;
   }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 90px;
@@ -235,12 +266,6 @@ body {
 }
 
 @media only screen and (max-width: 460px) {
-  .aside-section .aside-section-button {
-    top: 50%;
-    left: -40px;
-    height: 140px;
-    transform: translate(0%, -155%);
-  }
   .aside-section aside .aside-close img {
     width: 30px;
   }
@@ -309,11 +334,9 @@ body {
 }
 
 .home-bg .aside-section .aside-section-button p {
-  margin-left: -27px;
   color: #fff;
   font-weight: 700;
   transform: rotate(90deg);
-  margin-top: 45px;
   letter-spacing: -0.06em;
 }
 
