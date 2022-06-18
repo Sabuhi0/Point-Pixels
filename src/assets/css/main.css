@@ -732,9 +732,57 @@ body {
   letter-spacing: -0.06em;
 }
 
+@media only screen and (min-width: 1920px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-content h1 {
+    font-size: 120px !important;
+    line-height: 80%;
+  }
+  .main-content a {
+    font-size: 80px !important;
+  }
+
+  .footer-items h1 {
+    font-size: 80px !important;
+  }
+  .footer-items .footer-socials a {
+    font-size: 50px;
+  }
+}
+.footer-section {
+  margin-bottom: 100px !important;
+}
+
+@media only screen and (max-width: 1920px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-content h1 {
+    font-size: 120px;
+    line-height: 80%;
+  }
+  .main-content a {
+    font-size: 80px;
+  }
+
+  .footer-section {
+    margin-bottom: 100px !important;
+  }
+  .footer-section .footer-items h1 {
+    font-size: 80px;
+  }
+  .footer-section .footer-items .footer-socials a {
+    font-size: 50px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .bg-fon {
-    height: 100vh;
     padding-top: 120px;
   }
 
@@ -743,7 +791,7 @@ body {
   }
 
   .header-location h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .main-content h1 {
@@ -755,7 +803,7 @@ body {
 
   .footer-section {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
   }
 
@@ -814,6 +862,13 @@ body {
   .footer-desc p {
     width: none;
   }
+
+  .footer-items h1 {
+    font-size: 50px !important;
+  }
+  .footer-items .footer-socials a {
+    font-size: 30px !important;
+  }
 }
 @media only screen and (max-width: 460px) {
   .main-content a {
@@ -830,6 +885,7 @@ body {
 }
 .bg-fon {
   background: #000000;
+  height: 100vh;
 }
 .bg-fon .header-location h1 {
   font-family: "Acumin-Pro-Light";
@@ -838,7 +894,6 @@ body {
   letter-spacing: -0.07em;
 }
 .bg-fon .main-content h1 {
-  line-height: 1;
   color: #FFFFFF;
   letter-spacing: -0.07em;
   font-weight: 700;
@@ -856,13 +911,11 @@ body {
   transition: all ease 100ms;
 }
 .bg-fon .footer-items h1 {
-  font-size: 40px;
   letter-spacing: -0.06em;
   font-weight: 700;
 }
 .bg-fon .footer-items .footer-socials a {
   font-family: "Acumin-Pro-Light";
-  font-size: 22px;
   line-height: 1;
   transition: all ease 100ms;
 }
