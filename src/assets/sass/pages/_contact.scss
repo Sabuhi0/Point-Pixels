@@ -23,10 +23,6 @@
         }
     }
     
-    .footer-section {
-        margin-bottom: 100px !important;
-    }
-    
     @media only screen and (max-width: 1920px) {
         .main-content {
             display: flex;
@@ -212,30 +208,33 @@
                 transition: all ease 100ms;
             }
         }
-        .footer-items {
-            h1 {
-                letter-spacing: -0.06em;
-                font-weight: 700;
-            }
-            .footer-socials {
-                a {
-                    font-family: 'Acumin-Pro-ExtraLight';
-                    line-height: 1;
-                    transition: all ease 100ms;
+        .footer-section {
+            margin-bottom: 100px !important;
+            .footer-items {
+                h1 {
+                    letter-spacing: -0.06em;
+                    font-weight: 700;
                 }
-                a:hover {
-                    color: #E50000 !important;
-                    transition: all ease 100ms;
+                .footer-socials {
+                    a {
+                        font-family: 'Acumin-Pro-ExtraLight';
+                        line-height: 1;
+                        transition: all ease 100ms;
+                    }
+                    a:hover {
+                        color: #E50000 !important;
+                        transition: all ease 100ms;
+                    }
                 }
             }
-        }
-        .footer-desc {
-            p {
-                font-family: 'Acumin-Pro-Light';
-                font-weight: 400;
-                letter-spacing: -0.06em;
-                font-size: 30px;
-                line-height: 30px;
+            .footer-desc {
+                p {
+                    font-family: 'Acumin-Pro-Light';
+                    font-weight: 400;
+                    letter-spacing: -0.06em;
+                    font-size: 30px;
+                    line-height: 30px;
+                }
             }
         }
     }
