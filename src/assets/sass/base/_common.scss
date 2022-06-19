@@ -1,3 +1,4 @@
+@import '../abstracts/variables';
 body {
     font-family: "Acumin-Variable-Concept" !important;
     font-size: 16px;
@@ -7,10 +8,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-    max-width: 1258px !important;
-    margin: 0 auto !important;
-    width: 100% !important;
+@media only screen and (min-width: 1024px) {
+    .pp-container {
+        max-width: none !important;
+        padding: $main-measurement $main-measurement 0 $main-measurement;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .pp-container {
+        padding: 87px 87px 0 87px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-container {
+        padding: 53px 53px 0 53px;
+    }
 }
 
 .pt-103 {
