@@ -806,10 +806,6 @@ body {
     align-items: flex-end;
     justify-content: space-between;
   }
-
-  .footer-desc p {
-    width: 381px;
-  }
 }
 @media only screen and (max-width: 1024px) {
   .contact-container {
@@ -887,6 +883,9 @@ body {
   background: #000000;
   height: 100vh;
 }
+.bg-fon header .header-logo {
+  width: 120px;
+}
 .bg-fon .header-location h1 {
   font-family: "Acumin-Pro-Light";
   color: #FFFFFF;
@@ -915,7 +914,7 @@ body {
   font-weight: 700;
 }
 .bg-fon .footer-items .footer-socials a {
-  font-family: "Acumin-Pro-Light";
+  font-family: "Acumin-Pro-ExtraLight";
   line-height: 1;
   transition: all ease 100ms;
 }
@@ -926,7 +925,7 @@ body {
 .bg-fon .footer-desc p {
   font-family: "Acumin-Pro-Light";
   font-weight: 400;
-  font-size: 18px;
   letter-spacing: -0.06em;
-  line-height: 1;
+  font-size: 30px;
+  line-height: 30px;
 }
