@@ -7,6 +7,15 @@
             transform: translate(-0%, -90%) !important;
         }
         aside {
+            .aside-menus {
+                .aside-nav {
+                    a {
+                        font-size: 160px !important;
+                        font-size: 300px !important;
+                        line-height: 210px !important;
+                    }
+                }
+            }
             .aside-close {
                 img {
                     width: 50px;
@@ -32,6 +41,15 @@
             transform: translate(-0%, -75%) !important;
         }
         aside {
+            .aside-menus {
+                .aside-nav {
+                    a {
+                        font-size: 160px;
+                        font-size: 300px;
+                        line-height: 210px;
+                    }
+                }
+            }
             .aside-close {
                 img {
                     width: 50px;
@@ -63,14 +81,17 @@
                 bottom: 8%;
                 left: 15%;
                 h1 {
-                    width: 520px;
-                    font-size: 4rem;
-                    letter-spacing: -3.06px;
+                    width: 703px;
+                    font-size: 120px;
+                    letter-spacing: -0.06em;
                 }
                 p {
                     // width: 270px;
+                    font-family: "Acumin-Pro-Light";
                     font-size: 20px;
+                    line-height: 20px !important;
                     padding-top: 23px;
+                    letter-spacing: -0.06em;
                 }
             }
             .aside-image {
@@ -310,9 +331,9 @@
                     z-index: 9999;
                     text-align: end;
                     a {
+                        display: inline-block;
                         font-weight: 700;
                         letter-spacing: -0.06em;
-                        line-height: 1;
                         transition: all ease .2s;
                     }
                     a:hover {
