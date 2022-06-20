@@ -2,14 +2,17 @@
   font-family: "Acumin-Variable-Concept";
   src: url("/src/assets/fonts/9d98f534f006d8c613a5dc3ace7fe507.ttf");
 }
+
 @font-face {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-Book.ttf");
 }
+
 @font-face {
-  font-family: "Acumin-Pro-ExtraLight";
+  font-family: 'Acumin-Pro-ExtraLight';
   src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-ExtraLight.ttf");
 }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,7 +64,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -79,14 +82,17 @@ a {
   font-family: "Acumin-Variable-Concept";
   src: url("/src/assets/fonts/9d98f534f006d8c613a5dc3ace7fe507.ttf");
 }
+
 @font-face {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-Book.ttf");
 }
+
 @font-face {
-  font-family: "Acumin-Pro-ExtraLight";
+  font-family: 'Acumin-Pro-ExtraLight';
   src: url("/src/assets/fonts/FontsFree-Net-Acumin-Pro-ExtraLight.ttf");
 }
+
 body {
   font-family: "Acumin-Variable-Concept" !important;
   font-size: 16px;
@@ -96,22 +102,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (min-width: 1920px) {
+  .pp-container header .header-logo {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .pp-container header .header-logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .pp-container {
     max-width: none !important;
     padding: 120px 120px 0 120px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .pp-container {
     padding: 87px 87px 0 87px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .pp-container {
     padding: 53px 53px 0 53px;
   }
+  .pp-container header .header-logo {
+    width: 60px;
+    display: flex;
+    align-items: center;
+  }
 }
+
 .pt-103 {
   padding-top: 103px;
 }
@@ -154,6 +182,7 @@ body {
     width: 100% !important;
   }
 }
+
 @media only screen and (max-width: 1920px) {
   .aside-section .aside-section-button {
     height: 240px;
@@ -165,6 +194,7 @@ body {
     width: 50px;
   }
 }
+
 @media only screen and (min-width: 1110px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -80%);
@@ -200,10 +230,10 @@ body {
   }
   .aside-section aside .aside-image img {
     width: 73%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
+
 @media only screen and (max-width: 1110px) {
   .aside-section aside .aside-menus {
     align-items: flex-end;
@@ -235,6 +265,7 @@ body {
     padding-top: 23px;
   }
 }
+
 @media only screen and (min-width: 728px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -80%);
@@ -247,7 +278,6 @@ body {
     font-size: 30px;
     margin-top: 48px;
   }
-
   .footer-item h1 {
     font-size: 25px !important;
     line-height: 25px;
@@ -260,6 +290,7 @@ body {
     margin-right: 89.97px;
   }
 }
+
 @media only screen and (max-width: 728px) {
   .aside-section .aside-section-button {
     top: 50%;
@@ -279,7 +310,6 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 90px;
   }
-
   .footer-item h1 {
     font-size: 25px !important;
     line-height: 30px;
@@ -291,6 +321,7 @@ body {
     margin-right: 33.98px;
   }
 }
+
 @media only screen and (max-width: 460px) {
   .aside-section aside .aside-close img {
     width: 30px;
@@ -310,8 +341,7 @@ body {
   .aside-section aside .aside-image img {
     width: 80%;
     transform: rotate(90deg);
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .aside-section aside .aside-content {
     bottom: 50%;
@@ -326,7 +356,6 @@ body {
     font-size: 10px;
     padding-top: 11px;
   }
-
   .footer-item h1 {
     font-size: 16px !important;
     line-height: 1;
@@ -336,11 +365,13 @@ body {
     width: 20px;
   }
 }
+
 .home-bg {
   background: #000000;
   height: 100vh;
   position: relative;
 }
+
 .home-bg .aside-section {
   width: 100%;
   height: 100vh;
@@ -349,84 +380,100 @@ body {
   top: 0;
   right: 0;
   z-index: 1000;
-  transition: all ease 0.8s;
+  transition: all ease .8s;
   background: #E50000;
 }
+
 .home-bg .aside-section .aside-section-button {
   position: absolute;
   cursor: pointer;
   background: #E50000;
 }
+
 .home-bg .aside-section .aside-section-button p {
   color: #fff;
   font-weight: 700;
   transform: rotate(90deg);
   letter-spacing: -0.06em;
 }
+
 .home-bg .aside-section aside .aside-close {
   position: absolute;
   top: 6%;
   left: 8%;
   cursor: pointer;
 }
+
 .home-bg .aside-section aside .aside-menus {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
 }
+
 .home-bg .aside-section aside .aside-menus .aside-nav {
   display: flex;
   flex-direction: column;
   z-index: 9999;
   text-align: end;
 }
+
 .home-bg .aside-section aside .aside-menus .aside-nav a {
   font-weight: 700;
   letter-spacing: -0.06em;
   line-height: 1;
-  transition: all ease 0.2s;
+  transition: all ease .2s;
 }
+
 .home-bg .aside-section aside .aside-menus .aside-nav a:hover {
   transform: translateX(-50px);
-  transition: all ease 0.2s;
+  transition: all ease .2s;
 }
+
 .home-bg .aside-section aside .aside-image {
   z-index: 9999;
   position: absolute;
   opacity: 0;
-  transition: all ease 0.3s;
+  transition: all ease .3s;
 }
+
 .home-bg .aside-section aside .aside-image.show {
   opacity: 1;
-  transition: all ease 0.3s;
+  transition: all ease .3s;
 }
+
 .home-bg .aside-section aside .aside-content {
   position: absolute;
   opacity: 0;
-  transition: all ease 0.3s;
+  transition: all ease .3s;
 }
+
 .home-bg .aside-section aside .aside-content h1 {
   color: #000000;
   font-weight: 700;
   line-height: 1;
 }
+
 .home-bg .aside-section aside .aside-content p {
   line-height: 1;
   color: #000000;
 }
+
 .home-bg .aside-section aside .aside-content.show {
   opacity: 1;
-  transition: all ease 0.3s;
+  transition: all ease .3s;
 }
+
 .home-bg .aside-section.active {
   left: 0%;
-  transition: all ease 0.8s;
+  transition: all ease .8s;
 }
+
 .home-bg .slider {
   max-width: 100%;
   margin-bottom: 90px !important;
 }
+
 .home-bg .footer-item {
   max-width: 1258px;
   width: 100%;
@@ -434,19 +481,23 @@ body {
   margin-bottom: 100px !important;
   padding-top: 30px;
 }
+
 .home-bg .footer-item .footer-text h1 {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   font-weight: 400;
   color: #fff;
   letter-spacing: -0.06em;
 }
+
 .home-bg .footer-item .footer-info {
   display: flex;
   align-items: center;
 }
+
 .home-bg .footer-item .footer-info a {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
 }
+
 .home-bg .footer-item .footer-info a:hover {
   color: #E50000 !important;
   transition: all ease 100ms;
@@ -464,11 +515,6 @@ body {
     font-size: 120px !important;
     line-height: 90% !important;
   }
-
-  .pp-container header .header-logo {
-    width: 200px;
-    height: 200px;
-  }
   .pp-container .works-footer-section h1 {
     font-size: 200px !important;
     line-height: 170px !important;
@@ -477,6 +523,7 @@ body {
     font-size: 30px !important;
   }
 }
+
 @media only screen and (max-width: 1920px) {
   .works-aside-section {
     padding: 0px 0px 120px 120px;
@@ -489,11 +536,6 @@ body {
     font-size: 120px;
     line-height: 90%;
   }
-
-  .pp-container header .header-logo {
-    width: 120px;
-    height: 120px;
-  }
   .pp-container .works-footer-section h1 {
     font-size: 200px;
     line-height: 170px;
@@ -502,6 +544,7 @@ body {
     font-size: 30px;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .works-aside-section {
     padding: 0px 0px 35px 120px;
@@ -516,7 +559,6 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 80px;
   }
-
   .pp-container .header-content h1 {
     font-size: 50px;
   }
@@ -544,6 +586,7 @@ body {
     margin-top: 120px;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .works-aside-section {
     padding-left: 120px;
@@ -560,7 +603,6 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 70px;
   }
-
   .pp-container .header-content h1 {
     font-size: 50px;
   }
@@ -589,6 +631,7 @@ body {
     margin-top: 87px;
   }
 }
+
 @media only screen and (max-width: 728px) {
   .works-aside-section {
     padding-left: 87px;
@@ -596,7 +639,6 @@ body {
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 60px;
   }
-
   .pp-container .header-content h1 {
     font-size: 40px;
   }
@@ -611,6 +653,7 @@ body {
     font-size: 22px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .works-aside-section {
     padding-left: 53px;
@@ -618,11 +661,6 @@ body {
   }
   .works-aside-section aside .works-aside-menu ul li a {
     font-size: 50px;
-  }
-
-  .pp-container header .header-logo {
-    width: 54px;
-    height: 54px;
   }
   .pp-container .header-content h1 {
     font-size: 25px;
@@ -649,11 +687,11 @@ body {
     margin-top: 53px;
   }
 }
+
 @media only screen and (max-width: 460px) {
   .works-aside-section .works-aside-close img {
     width: 30px;
   }
-
   .pp-container .header-content h1 {
     font-size: 20px;
   }
@@ -662,11 +700,13 @@ body {
     line-height: 30px;
   }
 }
+
 .works-section {
   background: #000000;
   height: 100%;
   position: relative;
 }
+
 .works-section .works-aside-section {
   width: 100%;
   height: 100vh;
@@ -679,46 +719,55 @@ body {
   right: 0;
   background: #ffffff;
   z-index: 9999;
-  transition: all ease 0.4s;
+  transition: all ease .4s;
 }
+
 .works-section .works-aside-section .works-aside-close img {
   cursor: pointer;
 }
+
 .works-section .works-aside-section aside .works-aside-menu ul li a {
   color: #000000 !important;
   font-weight: 700;
-  transition: all ease 0.2s;
+  transition: all ease .2s;
   letter-spacing: -0.06em;
 }
+
 .works-section .works-aside-section aside .works-aside-menu ul li a:hover {
   color: #E50000 !important;
   padding-left: 45px;
-  transition: all ease 0.2s;
+  transition: all ease .2s;
 }
+
 .works-section .works-aside-section.active {
   left: 0%;
-  transition: all ease 0.4s;
+  transition: all ease .4s;
 }
 
 .pp-container .header-content {
   cursor: pointer;
 }
+
 .pp-container .header-content h1 {
   color: #ffffff;
   font-weight: 700;
 }
+
 .pp-container .header-content h1 span {
   color: #E50000;
 }
+
 .pp-container .hero-content h1 {
   font-weight: 700;
   letter-spacing: -0.06em;
   color: #FFFFFF;
 }
+
 .pp-container .works-items {
   position: relative;
   cursor: pointer;
 }
+
 .pp-container .works-items .overlay-item {
   position: absolute;
   top: 0;
@@ -726,10 +775,11 @@ body {
   left: 0;
   right: 0;
   opacity: 0;
-  transition: all 0.6s ease;
+  transition: all .6s ease;
   background: rgba(176, 176, 176, 0.5);
   border-radius: 4px;
 }
+
 .pp-container .works-items .overlay-item .item-info {
   width: 240px;
   height: 240px;
@@ -738,26 +788,31 @@ body {
   margin-left: 120px;
   padding: 10px 0px 0px 10px;
 }
+
 .pp-container .works-items .overlay-item .item-info h1 {
   color: #FFFFFF;
   font-size: 40px;
   font-weight: 700;
 }
+
 .pp-container .works-items .overlay-item .item-info span {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   font-size: 20px;
   font-weight: 400;
 }
+
 .pp-container .works-items:hover .overlay-item {
   opacity: 1;
 }
+
 .pp-container .works-footer-section h1 {
   font-weight: 700;
   letter-spacing: -0.06em;
   color: #ffffff;
 }
+
 .pp-container .works-footer-section p {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   font-weight: 400;
   letter-spacing: -0.04em;
   color: #ffffff;
@@ -768,16 +823,19 @@ body {
   background: #FFFFFF;
   height: 100%;
 }
+
 .works-template .hero-section {
   width: 100%;
   height: 100vh;
   position: relative;
 }
+
 .works-template .hero-section .works-aside-close {
   position: absolute;
   top: 0;
   padding-top: 100px;
 }
+
 .works-template .hero-section .hero-content {
   position: absolute;
   left: 0;
@@ -785,20 +843,24 @@ body {
   padding: 0 0 35px 120px;
   color: #ffffff;
 }
+
 .works-template .hero-section .hero-content h1 {
   font-size: 80px;
 }
+
 .works-template .hero-section .hero-content p {
   padding-top: 60px;
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
 }
+
 .works-template .hero-section .hero-content span {
   font-size: 28px;
   font-weight: 400;
   line-height: 1;
 }
+
 .works-template .project-desc h1 {
   color: #000000;
   font-size: 30px;
@@ -818,14 +880,18 @@ body {
   .main-content a {
     font-size: 80px !important;
   }
-
   .footer-items h1 {
     font-size: 80px !important;
   }
-  .footer-items .footer-socials a {
+  .footer-items .footer-section .footer-socials a {
     font-size: 50px;
   }
+  .footer-items .footer-section .footer-desc p {
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
 }
+
 @media only screen and (max-width: 1920px) {
   .main-content {
     display: flex;
@@ -839,7 +905,6 @@ body {
   .main-content a {
     font-size: 80px;
   }
-
   .footer-section {
     margin-bottom: 100px !important;
   }
@@ -849,42 +914,42 @@ body {
   .footer-section .footer-items .footer-socials a {
     font-size: 50px;
   }
+  .footer-section .footer-desc p {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
+
 @media only screen and (min-width: 1024px) {
   .bg-fon {
     padding-top: 120px;
   }
-
-  .contact-container {
+  .pp-container {
     padding: 0 120px 0 120px;
   }
-
   .header-location h1 {
     font-size: 30px;
   }
-
   .main-content h1 {
     font-size: 80px;
   }
   .main-content a {
     font-size: 60px;
   }
-
   .footer-section {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
   }
 }
+
 @media only screen and (max-width: 1024px) {
-  .contact-container {
+  .pp-container {
     padding: 87px 87px 0 87px;
   }
-
   .header-location h1 {
     font-size: 20px;
   }
-
   .main-content h1 {
     font-size: 70px;
     padding-top: 53px;
@@ -892,7 +957,6 @@ body {
   .main-content a {
     font-size: 50px;
   }
-
   .footer-section {
     padding-top: 73px;
     align-items: flex-start;
@@ -902,102 +966,102 @@ body {
     padding-top: 28px;
   }
 }
+
 @media only screen and (max-width: 600px) {
-  .contact-container {
+  .pp-container {
     padding: 53px 53px 0 53px;
   }
-
   .main-content h1 {
     font-size: 60px;
   }
   .main-content a {
     font-size: 30px;
   }
-
   .header-location h1 {
     font-size: 18px;
   }
-
-  .header-logo a img {
-    width: 95px;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .header-logo {
+    width: 60px;
   }
-
-  .footer-desc p {
-    width: none;
-  }
-
-  .footer-items h1 {
+  .footer-section .footer-items h1 {
     font-size: 50px !important;
   }
-  .footer-items .footer-socials a {
+  .footer-section .footer-items .footer-socials a {
     font-size: 30px !important;
   }
+  .footer-section .footer-desc p {
+    width: none;
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
+
 @media only screen and (max-width: 460px) {
   .main-content a {
     font-size: 22px;
   }
-
   .header-location h1 {
     font-size: 10px;
   }
-
   .header-logo a img {
     width: 54px;
   }
 }
+
 .bg-fon {
   background: #000000;
   height: 100vh;
 }
-.bg-fon header .header-logo {
-  width: 120px;
-}
+
 .bg-fon .header-location h1 {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   color: #FFFFFF;
   line-height: 1;
   letter-spacing: -0.07em;
 }
+
 .bg-fon .main-content h1 {
   color: #FFFFFF;
   letter-spacing: -0.07em;
   font-weight: 700;
 }
+
 .bg-fon .main-content a {
-  font-family: "Acumin-Pro-ExtraLight";
+  font-family: 'Acumin-Pro-ExtraLight';
   color: #FFFFFF;
   font-weight: 400;
   letter-spacing: -0.07em;
   line-height: 1;
   transition: all ease 100ms;
 }
+
 .bg-fon .main-content a:hover {
   color: #E50000 !important;
   transition: all ease 100ms;
 }
+
 .bg-fon .footer-section {
   margin-bottom: 100px !important;
 }
+
 .bg-fon .footer-section .footer-items h1 {
   letter-spacing: -0.06em;
   font-weight: 700;
 }
+
 .bg-fon .footer-section .footer-items .footer-socials a {
-  font-family: "Acumin-Pro-ExtraLight";
+  font-family: 'Acumin-Pro-ExtraLight';
   line-height: 1;
   transition: all ease 100ms;
 }
+
 .bg-fon .footer-section .footer-items .footer-socials a:hover {
   color: #E50000 !important;
   transition: all ease 100ms;
 }
+
 .bg-fon .footer-section .footer-desc p {
-  font-family: "Acumin-Pro-Light";
+  font-family: 'Acumin-Pro-Light';
   font-weight: 400;
   letter-spacing: -0.06em;
-  font-size: 30px;
-  line-height: 30px;
 }
