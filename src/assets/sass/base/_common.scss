@@ -32,13 +32,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 1024px) {
-    .pp-container {
-        max-width: none !important;
-        padding: $main-measurement $main-measurement 0 $main-measurement;
-    }
-}
-
 @media only screen and (max-width: 1024px) {
     .pp-container {
         padding: 87px 87px 0 87px;

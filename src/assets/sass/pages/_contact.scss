@@ -66,9 +66,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .pp-container {
-        padding: 0 120px 0 120px;
-    }
     .header-location {
         h1 {
             font-size: 30px;
@@ -86,11 +83,6 @@
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-    }
-    .footer-desc {
-        p {
-            // width: 381px;
-        }
     }
 }
 
