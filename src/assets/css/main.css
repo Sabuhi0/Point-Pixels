@@ -828,31 +828,37 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 120px !important;
+    margin-bottom: 148px !important;
+    line-height: 80%;
   }
   .main-content h1 {
     font-size: 120px !important;
-    line-height: 80%;
+    line-height: 80% !important;
   }
   .main-content a {
     font-size: 80px !important;
   }
-
-  .footer-items h1 {
-    font-size: 80px !important;
-  }
-  .footer-items .footer-section .footer-socials a {
-    font-size: 50px;
-  }
-  .footer-items .footer-section .footer-desc p {
-    font-size: 30px !important;
-    line-height: 30px !important;
-  }
 }
+.footer-items h1 {
+  font-size: 80px !important;
+}
+.footer-items .footer-section .footer-socials a {
+  font-size: 50px;
+}
+.footer-items .footer-section .footer-desc p {
+  font-size: 30px !important;
+  line-height: 30px !important;
+}
+
 @media only screen and (max-width: 1920px) {
   .main-content {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 120px;
+    margin-bottom: 148px;
+    line-height: 80%;
   }
   .main-content h1 {
     font-size: 120px;
@@ -925,6 +931,10 @@ body {
     padding: 53px 53px 0 53px;
   }
 
+  .main-content {
+    margin-top: 54px;
+    margin-bottom: 73px;
+  }
   .main-content h1 {
     font-size: 60px;
   }
@@ -967,7 +977,7 @@ body {
 }
 .bg-fon {
   background: #000000;
-  height: 100vh;
+  height: 100%;
 }
 .bg-fon .header-location h1 {
   font-family: "Acumin-Pro-Light";
