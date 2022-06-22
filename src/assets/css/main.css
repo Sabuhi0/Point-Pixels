@@ -883,10 +883,6 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .bg-fon {
-    padding-top: 120px;
-  }
-
   .pp-container {
     padding: 0 120px 0 120px;
   }

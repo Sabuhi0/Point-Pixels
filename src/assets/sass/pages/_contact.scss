@@ -27,11 +27,10 @@
                     line-height: 30px !important;
                 }
             }
-            
         }
     }
 }
-    
+
 @media only screen and (max-width: 1920px) {
     .main-content {
         display: flex;
@@ -60,131 +59,128 @@
         .footer-desc {
             p {
                 font-size: 30px;
-                line-height: 30px ;
+                line-height: 30px;
             }
         }
     }
 }
-    
+
 @media only screen and (min-width: 1024px) {
-        .bg-fon {
-            padding-top: $main-measurement;
+    .pp-container {
+        padding: 0 120px 0 120px;
+    }
+    .header-location {
+        h1 {
+            font-size: 30px;
         }
-        .pp-container {
-            padding: 0 120px 0 120px;
+    }
+    .main-content {
+        h1 {
+            font-size: 80px;
         }
-        .header-location {
-            h1 {
-                font-size: 30px;
-            }
+        a {
+            font-size: 60px;
         }
-        .main-content {
-            h1 {
-                font-size: 80px;
-            }
-            a {
-                font-size: 60px;
-            }
+    }
+    .footer-section {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .footer-desc {
+        p {
+            // width: 381px;
         }
-        .footer-section {
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-between;
-        }
-        .footer-desc {
-            p {
-                // width: 381px;
-            }
-        }
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-        .pp-container {
-            padding: 87px 87px 0 87px;
+    .pp-container {
+        padding: 87px 87px 0 87px;
+    }
+    .header-location {
+        h1 {
+            font-size: 20px;
         }
-        .header-location {
-            h1 {
-                font-size: 20px;
-            }
+    }
+    .main-content {
+        h1 {
+            font-size: 70px;
+            padding-top: 53px;
         }
-        .main-content {
-            h1 {
-                font-size: 70px;
-                padding-top: 53px;
-            }
-            a {
-                font-size: 50px;
-            }
+        a {
+            font-size: 50px;
         }
-        .footer-section {
-            padding-top: 73px;
-            align-items: flex-start;
-            flex-direction: column;
-            .footer-desc {
-                padding-top: 28px;
-            }
+    }
+    .footer-section {
+        padding-top: 73px;
+        align-items: flex-start;
+        flex-direction: column;
+        .footer-desc {
+            padding-top: 28px;
         }
+    }
 }
 
 @media only screen and (max-width: 600px) {
-        .pp-container {
-            padding: 53px 53px 0 53px;
+    .pp-container {
+        padding: 53px 53px 0 53px;
+    }
+    .main-content {
+        h1 {
+            font-size: 60px;
         }
-        .main-content {
+        a {
+            font-size: 30px;
+        }
+    }
+    .header-location {
+        h1 {
+            font-size: 18px;
+        }
+    }
+    .header-logo {
+        width: 60px;
+    }
+    .footer-section {
+        .footer-items {
             h1 {
-                font-size: 60px;
+                font-size: 50px !important;
             }
-            a {
-                font-size: 30px;
-            }
-        }
-        .header-location {
-            h1 {
-                font-size: 18px;
-            }
-        }
-        .header-logo {
-            width: 60px;
-        }
-       .footer-section {
-            .footer-items {
-                h1 {
-                    font-size: 50px !important;
-                }
-                .footer-socials {
-                    a {
-                        font-size: 30px !important;
-                    }
+            .footer-socials {
+                a {
+                    font-size: 30px !important;
                 }
             }
-            .footer-desc {
-                p {
-                    width: none;
-                    font-size: 16px;
-                    line-height: 16px ;
-                }
+        }
+        .footer-desc {
+            p {
+                width: none;
+                font-size: 16px;
+                line-height: 16px;
             }
-       }
+        }
+    }
 }
 
 @media only screen and (max-width: 460px) {
-        .main-content {
-            a {
-                font-size: 22px;
+    .main-content {
+        a {
+            font-size: 22px;
+        }
+    }
+    .header-location {
+        h1 {
+            font-size: 10px;
+        }
+    }
+    .header-logo {
+        a {
+            img {
+                width: 54px;
             }
         }
-        .header-location {
-            h1 {
-                font-size: 10px;
-            }
-        }
-        .header-logo {
-            a {
-                img {
-                    width: 54px;
-                }
-            }
-        }
+    }
 }
 
 .bg-fon {
