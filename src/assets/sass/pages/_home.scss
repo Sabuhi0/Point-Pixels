@@ -8,9 +8,10 @@
         }
         aside {
             .aside-menus {
+                align-items: center;
                 .aside-nav {
+                    padding-right: 113px;
                     a {
-                        font-size: 160px !important;
                         font-size: 300px !important;
                         line-height: 210px !important;
                     }
@@ -28,6 +29,11 @@
                     width: 100% !important;
                 }
             }
+            .aside-content {
+                h1 {
+                    line-height: 100px;
+                }
+            }
         }
     }
 }
@@ -42,9 +48,10 @@
         }
         aside {
             .aside-menus {
+                align-items: center;
                 .aside-nav {
+                    padding-right: 113px;
                     a {
-                        font-size: 160px;
                         font-size: 300px;
                         line-height: 210px;
                     }
@@ -68,15 +75,16 @@
             }
         }
         aside {
-            .aside-menus {
-                align-items: center;
-                .aside-nav {
-                    padding-right: 113px;
-                    a {
-                        font-size: 160px;
-                    }
-                }
-            }
+            // .aside-menus {
+            //     align-items: center;
+            //     .aside-nav {
+            //         padding-right: 113px;
+            //         a {
+            //             font-size: 160px !important;
+            //             list-style: 160px !important;
+            //         }
+            //     }
+            // }
             .aside-content {
                 bottom: 8%;
                 left: 15%;
@@ -113,8 +121,10 @@
                 align-items: flex-end;
                 .aside-nav {
                     padding-right: 87px;
+                    padding-bottom: 87px;
                     a {
                         font-size: 120px;
+                        line-height: 120px;
                     }
                 }
             }
@@ -198,6 +208,7 @@
                 .aside-nav {
                     a {
                         font-size: 90px;
+                        line-height: 90px;
                     }
                 }
             }
@@ -241,6 +252,7 @@
                     padding-bottom: 53px;
                     a {
                         font-size: 87px;
+                        line-height: 87px;
                     }
                 }
             }
@@ -261,6 +273,7 @@
                     width: 100%;
                     font-size: 50px;
                     letter-spacing: -3.06px;
+                    line-height: 100px;
                 }
                 p {
                     // width: 270px;
@@ -363,7 +376,7 @@
                 h1 {
                     color: #000000;
                     font-weight: 700;
-                    line-height: 1;
+                    line-height: 100px;
                 }
                 p {
                     line-height: 1;

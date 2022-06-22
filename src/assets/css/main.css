@@ -164,8 +164,13 @@ body {
     left: -61px;
     transform: translate(0%, -90%) !important;
   }
+  .aside-section aside .aside-menus {
+    align-items: center;
+  }
+  .aside-section aside .aside-menus .aside-nav {
+    padding-right: 113px;
+  }
   .aside-section aside .aside-menus .aside-nav a {
-    font-size: 160px !important;
     font-size: 300px !important;
     line-height: 210px !important;
   }
@@ -175,6 +180,9 @@ body {
   .aside-section aside .aside-image img {
     width: 100% !important;
   }
+  .aside-section aside .aside-content h1 {
+    line-height: 100px;
+  }
 }
 @media only screen and (max-width: 1920px) {
   .aside-section .aside-section-button {
@@ -183,8 +191,13 @@ body {
     left: -61px;
     transform: translate(0%, -75%) !important;
   }
+  .aside-section aside .aside-menus {
+    align-items: center;
+  }
+  .aside-section aside .aside-menus .aside-nav {
+    padding-right: 113px;
+  }
   .aside-section aside .aside-menus .aside-nav a {
-    font-size: 160px;
     font-size: 300px;
     line-height: 210px;
   }
@@ -198,15 +211,6 @@ body {
   }
   .aside-section .aside-section-button .d-none-text {
     display: none;
-  }
-  .aside-section aside .aside-menus {
-    align-items: center;
-  }
-  .aside-section aside .aside-menus .aside-nav {
-    padding-right: 113px;
-  }
-  .aside-section aside .aside-menus .aside-nav a {
-    font-size: 160px;
   }
   .aside-section aside .aside-content {
     bottom: 8%;
@@ -240,9 +244,11 @@ body {
   }
   .aside-section aside .aside-menus .aside-nav {
     padding-right: 87px;
+    padding-bottom: 87px;
   }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 120px;
+    line-height: 120px;
   }
   .aside-section aside .aside-image {
     left: 17%;
@@ -308,6 +314,7 @@ body {
   }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 90px;
+    line-height: 90px;
   }
 
   .footer-item h1 {
@@ -331,6 +338,7 @@ body {
   }
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 87px;
+    line-height: 87px;
   }
   .aside-section aside .aside-image {
     width: 136%;
@@ -351,6 +359,7 @@ body {
     width: 100%;
     font-size: 50px;
     letter-spacing: -3.06px;
+    line-height: 100px;
   }
   .aside-section aside .aside-content p {
     font-size: 10px;
@@ -439,7 +448,7 @@ body {
 .home-bg .aside-section aside .aside-content h1 {
   color: #000000;
   font-weight: 700;
-  line-height: 1;
+  line-height: 100px;
 }
 .home-bg .aside-section aside .aside-content p {
   line-height: 1;
