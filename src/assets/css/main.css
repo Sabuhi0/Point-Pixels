@@ -169,7 +169,7 @@ body {
 
 @media only screen and (min-width: 1920px) {
   .aside-section .aside-section-button {
-    height: 240px;
+    height: 210px;
     top: 50%;
     left: -61px;
     transform: translate(0%, -90%) !important;
@@ -181,8 +181,8 @@ body {
     padding-right: 113px;
   }
   .aside-section aside .aside-menus .aside-nav a {
-    font-size: 300px !important;
-    line-height: 210px !important;
+    font-size: 241px !important;
+    line-height: 187px !important;
   }
   .aside-section aside .aside-close img {
     width: 50px;
@@ -197,7 +197,7 @@ body {
 
 @media only screen and (max-width: 1920px) {
   .aside-section .aside-section-button {
-    height: 240px;
+    height: 210px;
     top: 50%;
     left: -61px;
     transform: translate(0%, -75%) !important;
@@ -209,8 +209,8 @@ body {
     padding-right: 113px;
   }
   .aside-section aside .aside-menus .aside-nav a {
-    font-size: 300px;
-    line-height: 210px;
+    font-size: 241px;
+    line-height: 187px;
   }
   .aside-section aside .aside-image img {
     width: 100% !important;
@@ -495,14 +495,14 @@ body {
 
 .home-bg .slider {
   max-width: 100%;
-  margin-bottom: 90px !important;
+  margin-bottom: 60px !important;
 }
 
 .home-bg .footer-item {
   max-width: 1258px;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 100px !important;
+  margin-bottom: 70px !important;
   padding-top: 30px;
 }
 
@@ -529,14 +529,14 @@ body {
 
 @media only screen and (min-width: 1920px) {
   .works-aside-section {
-    padding: 0px 0px 120px 120px !important;
+    padding: 0px 0px 90px 120px !important;
   }
   .works-aside-section .works-aside-close {
     margin-top: 3% !important;
-    margin-left: 45px;
+    margin-left: 20px !important;
   }
   .works-aside-section .works-aside-menu ul li a {
-    font-size: 120px !important;
+    font-size: 90px !important;
     line-height: 90% !important;
   }
   .pp-container .header-content h1 {
@@ -569,17 +569,17 @@ body {
 
 @media only screen and (max-width: 1920px) {
   .works-aside-section {
-    padding: 0px 0px 120px 120px;
+    padding: 0px 0px 90px 120px;
   }
   .works-aside-section .works-aside-close {
     margin-top: 3%;
-    margin-left: 45px;
+    margin-left: 20px;
   }
   .works-aside-section .works-aside-close img {
     width: 50px;
   }
   .works-aside-section aside .works-aside-menu ul li a {
-    font-size: 120px;
+    font-size: 90px;
     line-height: 90%;
   }
   .pp-container .header-content h1 {
@@ -892,6 +892,9 @@ body {
 }
 
 @media only screen and (min-width: 1920px) {
+  .pp-container .header-location h1 {
+    font-size: 30px;
+  }
   .main-content {
     display: flex;
     flex-direction: column;
@@ -907,19 +910,19 @@ body {
   .main-content a {
     font-size: 80px !important;
   }
-}
-
-.footer-items h1 {
-  font-size: 80px !important;
-}
-
-.footer-items .footer-section .footer-socials a {
-  font-size: 50px;
-}
-
-.footer-items .footer-section .footer-desc p {
-  font-size: 30px !important;
-  line-height: 30px !important;
+  .footer-section {
+    margin-bottom: 100px !important;
+  }
+  .footer-section .footer-items h1 {
+    font-size: 80px !important;
+  }
+  .footer-section .footer-items .footer-socials a {
+    font-size: 50px !important;
+  }
+  .footer-section .footer-desc p {
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
 }
 
 @media only screen and (max-width: 1920px) {
@@ -954,15 +957,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-  .header-location h1 {
-    font-size: 30px;
-  }
-  .main-content h1 {
-    font-size: 80px;
-  }
-  .main-content a {
-    font-size: 60px;
-  }
   .footer-section {
     display: flex;
     align-items: flex-end;

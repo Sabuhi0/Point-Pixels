@@ -1,4 +1,11 @@
 @media only screen and (min-width: 1920px) {
+    .pp-container {
+        .header-location {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
     .main-content {
         display: flex;
         flex-direction: column;
@@ -14,16 +21,17 @@
             font-size: 80px !important;
         }
     }
-}
-
-.footer-items {
-    h1 {
-        font-size: 80px !important;
-    }
+    
     .footer-section {
-        .footer-socials {
-            a {
-                font-size: 50px;
+        margin-bottom: 100px !important;
+        .footer-items {
+            h1 {
+                font-size: 80px !important;
+            }
+            .footer-socials {
+                a {
+                    font-size: 50px !important;
+                }
             }
         }
         .footer-desc {
@@ -73,19 +81,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .header-location {
-        h1 {
-            font-size: 30px;
-        }
-    }
-    .main-content {
-        h1 {
-            font-size: 80px;
-        }
-        a {
-            font-size: 60px;
-        }
-    }
     .footer-section {
         display: flex;
         align-items: flex-end;
