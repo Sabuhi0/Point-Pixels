@@ -9,7 +9,7 @@ body {
 }
 
 @media only screen and (min-width: 1920px) {
-    .pp-container {
+    .pp-container,.pp-contact {
         padding: $main-measurement $main-measurement 0 $main-measurement !important;
         header {
             .header-logo {
@@ -23,7 +23,7 @@ body {
 }
 
 @media only screen and (max-width: 1920px) {
-    .pp-container {
+    .pp-container,.pp-contact {
         padding: $main-measurement $main-measurement 0 $main-measurement;
         header {
             .header-logo {
@@ -37,13 +37,13 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-    .pp-container {
+    .pp-container,.pp-contact {
         padding: 87px 87px 0 87px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .pp-container {
+    .pp-container,.pp-contact {
         padding: 53px 53px 0 53px;
         header {
             .header-logo {

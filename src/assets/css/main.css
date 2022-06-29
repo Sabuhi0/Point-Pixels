@@ -103,10 +103,10 @@ body {
 }
 
 @media only screen and (min-width: 1920px) {
-  .pp-container {
+  .pp-container, .pp-contact {
     padding: 120px 120px 0 120px !important;
   }
-  .pp-container header .header-logo {
+  .pp-container header .header-logo, .pp-contact header .header-logo {
     width: 120px !important;
     height: 120px !important;
     position: relative !important;
@@ -115,10 +115,10 @@ body {
 }
 
 @media only screen and (max-width: 1920px) {
-  .pp-container {
+  .pp-container, .pp-contact {
     padding: 120px 120px 0 120px;
   }
-  .pp-container header .header-logo {
+  .pp-container header .header-logo, .pp-contact header .header-logo {
     width: 120px;
     height: 120px;
     position: relative;
@@ -127,16 +127,16 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .pp-container {
+  .pp-container, .pp-contact {
     padding: 87px 87px 0 87px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .pp-container {
+  .pp-container, .pp-contact {
     padding: 53px 53px 0 53px;
   }
-  .pp-container header .header-logo {
+  .pp-container header .header-logo, .pp-contact header .header-logo {
     width: 60px;
     display: flex;
     align-items: center;
@@ -919,7 +919,10 @@ body {
 }
 
 @media only screen and (min-width: 1920px) {
-  .pp-container .header-location h1 {
+  .pp-contact {
+    padding: 87px 120px 0 120px !important;
+  }
+  .pp-contact .header-location h1 {
     font-size: 30px !important;
   }
   .main-content {
@@ -953,10 +956,10 @@ body {
 }
 
 @media only screen and (max-width: 1920px) {
-  .pp-container {
-    padding: 87px 120px 0 120px !important;
+  .pp-contact {
+    padding: 87px 120px 0 120px;
   }
-  .pp-container .header-location h1 {
+  .pp-contact .header-location h1 {
     font-size: 25px;
   }
   .main-content {
@@ -998,7 +1001,7 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .pp-container {
+  .pp-contact {
     padding: 87px 87px 0 87px;
   }
   .header-location h1 {
@@ -1022,7 +1025,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .pp-container {
+  .pp-contact {
     padding: 53px 53px 0 53px;
   }
   .main-content {

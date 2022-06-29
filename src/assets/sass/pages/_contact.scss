@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1920px) {
-    .pp-container {
+    .pp-contact {
+        padding: 87px 120px 0 120px !important;
         .header-location {
             h1 {
                 font-size: 30px !important;
@@ -44,8 +45,8 @@
 }
 
 @media only screen and (max-width: 1920px) {
-    .pp-container {
-        padding: 87px 120px 0 120px !important;
+    .pp-contact {
+        padding: 87px 120px 0 120px;
         .header-location {
             h1 {
                 font-size: 25px;
@@ -97,7 +98,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .pp-container {
+    .pp-contact {
         padding: 87px 87px 0 87px;
     }
     .header-location {
@@ -125,7 +126,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .pp-container {
+    .pp-contact {
         padding: 53px 53px 0 53px;
     }
     .main-content {
