@@ -906,6 +906,18 @@ body {
   letter-spacing: -0.06em;
 }
 
+.works-template .work-info {
+  display: flex;
+  align-items: center;
+}
+
+.works-template .work-info h1 {
+  font-family: 'Acumin-Pro-Light';
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.06em;
+}
+
 @media only screen and (min-width: 1920px) {
   .pp-container .header-location h1 {
     font-size: 30px !important;
