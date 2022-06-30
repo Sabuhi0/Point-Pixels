@@ -184,7 +184,7 @@ body {
   .aside-section aside .aside-menus .aside-nav {
     padding-right: 113px;
   }
-  .aside-section aside .aside-menus .aside-nav a {
+  .aside-section aside .aside-menus .aside-nav h1 {
     font-size: 241px !important;
     line-height: 170px !important;
   }
@@ -212,7 +212,7 @@ body {
   .aside-section aside .aside-menus .aside-nav {
     padding-right: 113px;
   }
-  .aside-section aside .aside-menus .aside-nav a {
+  .aside-section aside .aside-menus .aside-nav h1 {
     font-size: 241px;
     line-height: 170px;
   }
@@ -265,7 +265,7 @@ body {
     padding-right: 87px;
     padding-bottom: 87px;
   }
-  .aside-section aside .aside-menus .aside-nav a {
+  .aside-section aside .aside-menus .aside-nav h1 {
     font-size: 120px;
     line-height: 120px;
   }
@@ -440,20 +440,17 @@ body {
 }
 
 .home-bg .aside-section aside .aside-menus .aside-nav {
-  display: flex;
-  flex-direction: column;
   z-index: 9999;
   text-align: end;
 }
 
-.home-bg .aside-section aside .aside-menus .aside-nav a {
-  display: inline-block;
+.home-bg .aside-section aside .aside-menus .aside-nav h1 {
   font-weight: 700;
   letter-spacing: -0.06em;
   transition: all ease .2s;
 }
 
-.home-bg .aside-section aside .aside-menus .aside-nav a:hover {
+.home-bg .aside-section aside .aside-menus .aside-nav h1:hover {
   transform: translateX(-50px);
   transition: all ease .2s;
 }
