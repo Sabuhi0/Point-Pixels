@@ -337,14 +337,18 @@
                 .aside-nav {
                     z-index: 9999;
                     text-align: end;
+                    width: 726px;
+                    height: 527px;
+                    overflow: hidden;
                     h1 {
                         font-weight: 700;
                         letter-spacing: -0.06em;
                         transition: all ease .2s;
-                    }
-                    h1:hover {
-                        transform: translateX(-50px);
-                        transition: all ease .2s;
+                        // display: inline-block;
+                        &:hover {
+                            transform: translateX(-50px);
+                            transition: all ease .2s;
+                        }
                     }
                 }
             }
