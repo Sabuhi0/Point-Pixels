@@ -442,6 +442,9 @@ body {
 .home-bg .aside-section aside .aside-menus .aside-nav {
   z-index: 9999;
   text-align: end;
+  width: 726px;
+  height: 527px;
+  overflow: hidden;
 }
 
 .home-bg .aside-section aside .aside-menus .aside-nav h1 {
