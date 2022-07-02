@@ -185,6 +185,7 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 241px !important;
     line-height: 170px !important;
+    height: 188px !important;
   }
   .aside-section aside .aside-close img {
     width: 50px;
@@ -213,6 +214,7 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 241px;
     line-height: 170px;
+    height: 188px;
   }
   .aside-section aside .aside-image img {
     width: 100%;
