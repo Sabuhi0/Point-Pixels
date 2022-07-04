@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="/src/assets/css/main.css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <!-- Slick -->
-    <link rel="stylesheet" href="/node_modules/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" href="/node_modules/slick-carousel/slick//slick-theme.css" />
 </head>
 
 <body>
@@ -49,9 +46,15 @@
                     </div>
                     <div class="aside-menus">
                         <nav class="aside-nav">
-                            <a onmouseover="work(this)" href="/public/works.html">work</a>
-                            <a onmouseover="contact(this)" href="/public/contact.html">contact</a>
-                            <a href="/">news</a>
+                            <div>
+                                <a onmouseover="work(this)" href="/public/works.html">work</a>
+                            </div>
+                            <div>
+                                <a onmouseover="contact(this)" href="/public/contact.html">contact</a>
+                            </div>
+                            <div>
+                                <a href="/">news</a>
+                            </div>
                         </nav>
                     </div>
                     <!-- Aside Menu End -->
@@ -62,117 +65,139 @@
             <!-- Home Items Start -->
             <div id="home-items">
                 <!-- Slider Start -->
-                <!-- <div class="slider-items" style="transition: transform 500ms ease 0s;" role="listbox">
-                    <div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-tor.png" alt="">
-                    </div>
-                    <div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-aris.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-torbeylikduzu.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-mersinm.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-aquak.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-nihal.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-agro.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-toradv.png" alt="" />
-                    </div>
-                    <div class="slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1">
-                        <img class="w-full" src="https://www.tremglobal.com/assets/images/clients/thumb-gsirkeci.png" alt="" />
-                    </div>
-                </div> -->
-
-                <!-- <div class="slick-track" style="opacity: 1; width: 3004px; transition: transform 500ms ease 0s; transform: translate3d(-748px, 0px, 0px);" role="listbox">
-                    <div class="slick-slide" data-slick-index="0" aria-hidden="true" style="width: 300px" tabindex="-1"
-                        role="option" aria-describedby="slick-slide80">
+                <!-- <div class="slick-track" role="listbox" style="width: 100%;">
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide80">
                         <h3>1</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false"
-                        style="width: 300px" tabindex="-1" role="option" aria-describedby="slick-slide81">
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide81">
                         <h3>2</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 300px"
-                        tabindex="-1" role="option" aria-describedby="slick-slide82">
+                    <div class="slick-slide d-flex align-items-center slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide82">
                         <h3>3</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 300px"
-                        tabindex="-1" role="option" aria-describedby="slick-slide83">
+                    <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide83">
                         <h3>4</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide" data-slick-index="4" aria-hidden="true" style="width: 300px" tabindex="-1"
-                        role="option" aria-describedby="slick-slide84">
+                    <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                         <h3>5</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide" data-slick-index="5" aria-hidden="true" style="width: 300px" tabindex="-1"
-                        role="option" aria-describedby="slick-slide85">
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide86">
                         <h3>6</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" style="width: 300px"
-                        tabindex="-1">
-                        <h3>1</h3>
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide87">
+                        <h3>7</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 300px"
-                        tabindex="-1">
-                        <h3>2</h3>
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide88">
+                        <h3>8</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 300px"
-                        tabindex="-1">
-                        <h3>3</h3>
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide89">
+                        <h3>9</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
+                    </div>
+                    <div class="slick-slide d-flex align-items-center" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide90">
+                        <h3>10</h3>
+                        <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
                 </div> -->
+                <!-- <div class="tech-slideshow">
+                    <div class="mover-1"> 
+                    </div>
+                    <div class="mover-2">
+                    </div>
+                </div>   -->
 
-                <div class="slider autoplay slick-initialized slick-slider slick-dotted" role="toolbar">
-                    <div aria-live="polite" class="slick-list draggable">
-                        <div class="slick-track" role="listbox" style="width: 100%;">
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide80">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>1</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide81">
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>2</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide82">
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>3</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide83">
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>4</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
+                        </div>
+                        <div class="slide">
                             <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>5</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide86">
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>6</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide87">
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>7</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide88">
+                        </div>
+                          <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>8</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide89">
+                        </div>  
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>9</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
-                            <div class="slick-slide d-flex align-items-center" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide90">
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>10</h3>
-                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" alt="">
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                                <h3>11</h3>
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                                <h3>12</h3>
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                                <h3>13</h3>
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                                <h3></h3>
+                                <img style="margin: 0px 90px 0px 100px;" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
                         </div>
                     </div>
@@ -213,22 +238,6 @@
     <!-- Jquery -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <!-- Slick Js -->
-    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".slick-track").slick({
-                "setting-name": "setting-value",
-                arrows: false,
-                autoplay: true,
-                speed: 300,
-                autoplaySpeed: 0,
-                variableWidth: true,
-                centerMode: true,
-            });
-        });
-    </script>
 </body>
 
 </html>
