@@ -441,9 +441,11 @@ body {
 
 .home-bg .aside-section aside .aside-menus .aside-nav {
   z-index: 9999;
-  text-align: end;
   width: 726px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   overflow: hidden;
 }
 
@@ -451,8 +453,8 @@ body {
   font-weight: 700;
   letter-spacing: -0.06em;
   transition: all ease .2s;
-  display: inline-block;
-  overflow: hidden;
+  display: block;
+  overflow-y: clip;
 }
 
 .home-bg .aside-section aside .aside-menus .aside-nav a:hover {
@@ -572,7 +574,7 @@ body {
 #home-items .slider .slide-track {
   animation: scroll 15s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(-250px * 14);
 }
 
 #home-items .slider .slide {
