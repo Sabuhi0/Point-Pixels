@@ -971,6 +971,26 @@ body {
   letter-spacing: -0.06em;
 }
 
+.works-template .footer-info {
+  background-color: #C4C4C4;
+  height: 720px;
+  margin-top: 120px;
+}
+
+.works-template .footer-info .next-info h1 {
+  font-family: 'Acumin-Pro-Light';
+  font-size: 30px;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+  padding-bottom: 90px;
+}
+
+.works-template .footer-info .next-info strong {
+  font-size: 120px;
+  letter-spacing: -0.06em;
+  color: #FFFFFF;
+}
+
 @media only screen and (min-width: 1920px) {
   .pp-contact {
     padding: 87px 120px 0 120px !important;

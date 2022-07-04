@@ -540,4 +540,23 @@
             letter-spacing: -0.06em;
         }
     }
+    .footer-info {
+        background-color: #C4C4C4;
+        height: 720px;
+        margin-top: $main-measurement;
+        .next-info {
+            h1 {
+                font-family: 'Acumin-Pro-Light';
+                font-size: 30px;
+                letter-spacing: -0.06em;
+                color: #ffffff;
+                padding-bottom: 90px;
+            }
+            strong {
+                font-size: 120px;
+                letter-spacing: -0.06em;
+                color: #FFFFFF;
+            }
+        }
+    }
 }
