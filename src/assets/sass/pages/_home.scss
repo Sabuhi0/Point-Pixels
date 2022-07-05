@@ -109,7 +109,7 @@
             }
             .aside-image {
                 left: 15%;
-                top: 23%;
+                top: 20%;
                 img {
                     width: 80%;
                     object-fit: cover;
@@ -428,6 +428,7 @@
 }
 
 
+// Slider
 
 #home-items {
     $animationSpeed: 15s;
@@ -451,7 +452,7 @@
             content: "";
             height: 100px;
             position: absolute;
-            width: 200px;
+            width: 250px;
             z-index: 2;
         }
         
