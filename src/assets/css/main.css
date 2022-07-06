@@ -901,6 +901,9 @@ body {
 }
 
 @media only screen and (min-width: 1920px) {
+  .works-template .desc-video {
+    height: 625px !important;
+  }
   .works-template .footer-info {
     margin-top: 120px !important;
     padding-bottom: 360px !important;
@@ -911,10 +914,14 @@ body {
   }
   .works-template .footer-info .next-info strong {
     font-size: 120px !important;
+    line-height: 120px !important;
   }
 }
 
 @media only screen and (max-width: 1920px) {
+  .works-template .desc-video {
+    height: 625px;
+  }
   .works-template .footer-info {
     margin-top: 120px;
     padding-bottom: 360px;
@@ -925,15 +932,43 @@ body {
   }
   .works-template .footer-info .next-info strong {
     font-size: 120px;
+    line-height: 120px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .works-template .pb-text h1 {
+  .pb-size h1 {
     padding-bottom: 87px;
   }
-  .works-template .pt-text {
+  .pt-size {
     padding-top: 87px;
+  }
+  .works-template .desc-video {
+    height: 243px;
+  }
+  .works-template .hero-section img {
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pb-size h1 {
+    padding-bottom: 53px;
+  }
+  .pt-size {
+    padding-top: 53px;
+  }
+  .works-template .footer-info {
+    margin-top: 120px;
+    padding-bottom: 360px;
+  }
+  .works-template .footer-info .next-info h1 {
+    font-size: 30px;
+    padding-bottom: 53px;
+  }
+  .works-template .footer-info .next-info strong {
+    font-size: 80px;
+    line-height: 70px;
   }
 }
 
@@ -952,7 +987,6 @@ body {
   position: absolute;
   top: 0;
   padding-top: 100px;
-  padding-left: 120px;
 }
 
 .works-template .hero-section .works-aside-close a img {
@@ -961,9 +995,7 @@ body {
 
 .works-template .hero-section .hero-content {
   position: absolute;
-  left: 0;
   bottom: 0;
-  padding: 0 0 35px 120px;
   color: #ffffff;
 }
 
@@ -1010,20 +1042,15 @@ body {
 
 .works-template .footer-info {
   background-color: #C4C4C4;
-  margin-top: 120px;
-  padding-bottom: 360px;
 }
 
 .works-template .footer-info .next-info h1 {
   font-family: 'Acumin-Pro-Light';
-  font-size: 30px;
   letter-spacing: -0.06em;
   color: #ffffff;
-  padding-bottom: 90px;
 }
 
 .works-template .footer-info .next-info strong {
-  font-size: 120px;
   letter-spacing: -0.06em;
   color: #FFFFFF;
 }
