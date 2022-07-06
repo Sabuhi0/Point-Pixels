@@ -249,7 +249,7 @@ body {
   }
   .aside-section aside .aside-image {
     left: 15%;
-    top: 23%;
+    top: 20%;
   }
   .aside-section aside .aside-image img {
     width: 80%;
@@ -556,7 +556,7 @@ body {
   content: "";
   height: 100px;
   position: absolute;
-  width: 200px;
+  width: 250px;
   z-index: 2;
 }
 
@@ -900,6 +900,43 @@ body {
   line-height: 30px;
 }
 
+@media only screen and (min-width: 1920px) {
+  .works-template .footer-info {
+    margin-top: 120px !important;
+    padding-bottom: 360px !important;
+  }
+  .works-template .footer-info .next-info h1 {
+    font-size: 30px !important;
+    padding-bottom: 90px !important;
+  }
+  .works-template .footer-info .next-info strong {
+    font-size: 120px !important;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .works-template .footer-info {
+    margin-top: 120px;
+    padding-bottom: 360px;
+  }
+  .works-template .footer-info .next-info h1 {
+    font-size: 30px;
+    padding-bottom: 90px;
+  }
+  .works-template .footer-info .next-info strong {
+    font-size: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .works-template .pb-text h1 {
+    padding-bottom: 87px;
+  }
+  .works-template .pt-text {
+    padding-top: 87px;
+  }
+}
+
 .works-template {
   background: #FFFFFF;
   height: 100%;
@@ -973,8 +1010,8 @@ body {
 
 .works-template .footer-info {
   background-color: #C4C4C4;
-  height: 720px;
   margin-top: 120px;
+  padding-bottom: 360px;
 }
 
 .works-template .footer-info .next-info h1 {
