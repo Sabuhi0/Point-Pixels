@@ -478,6 +478,9 @@
 
 @media only screen and (min-width: 1920px) {
     .works-template {
+        .desc-video {
+            height: 625px !important;
+        }
         .footer-info {
             margin-top: $main-measurement !important;
             padding-bottom: 360px !important;
@@ -488,6 +491,7 @@
                 }
                 strong {
                     font-size: 120px !important;
+                    line-height: 120px !important;
                 }
             }
         }
@@ -496,6 +500,9 @@
 
 @media only screen and (max-width: 1920px) {
     .works-template {
+        .desc-video {
+            height: 625px;
+        }
         .footer-info {
             margin-top: $main-measurement;
             padding-bottom: 360px;
@@ -506,6 +513,7 @@
                 }
                 strong {
                     font-size: 120px;
+                    line-height: 120px;
                 }
             }
         }
@@ -521,10 +529,44 @@
     .pt-size {
         padding-top: 87px;
     }
+    .works-template {
+        .desc-video {
+            height: 243px;
+        }
+        .hero-section {
+            img {
+                object-fit: cover;
+            }
+        }
+
+    }
 }
 
 @media only screen and (max-width: 600px) {
-
+    .pb-size {
+        h1 {
+            padding-bottom: 53px;
+        }
+    }
+    .pt-size {
+        padding-top: 53px;
+    }
+    .works-template {
+        .footer-info {
+            margin-top: $main-measurement;
+            padding-bottom: 360px;
+            .next-info {
+                h1 {
+                    font-size: 30px;
+                    padding-bottom: 53px;
+                }
+                strong {
+                    font-size: 80px;
+                    line-height: 70px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 460px) {
@@ -543,7 +585,7 @@
             position: absolute;
             top: 0;
             padding-top: 100px;
-            padding-left: 120px;
+            // padding-left: 120px;
             a {
                 img {
                     width: 50px;
@@ -552,9 +594,9 @@
         }
         .hero-content {
             position: absolute;
-            left: 0;
+            // left: 0;
             bottom: 0;
-            padding: 0 0 35px $main-measurement;
+            // padding: 0 0 35px $main-measurement;
             color: #ffffff;
             h1 {
                 font-size: 120px;
@@ -597,18 +639,13 @@
     }
     .footer-info {
         background-color: #C4C4C4;
-        margin-top: $main-measurement;
-        padding-bottom: 360px;
         .next-info {
             h1 {
                 font-family: 'Acumin-Pro-Light';
-                font-size: 30px;
                 letter-spacing: -0.06em;
                 color: #ffffff;
-                padding-bottom: 90px;
             }
             strong {
-                font-size: 120px;
                 letter-spacing: -0.06em;
                 color: #FFFFFF;
             }
