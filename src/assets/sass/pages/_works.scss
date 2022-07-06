@@ -476,6 +476,63 @@
     }
 }
 
+@media only screen and (min-width: 1920px) {
+    .works-template {
+        .footer-info {
+            margin-top: $main-measurement !important;
+            padding-bottom: 360px !important;
+            .next-info {
+                h1 {
+                    font-size: 30px !important;
+                    padding-bottom: 90px !important;
+                }
+                strong {
+                    font-size: 120px !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .works-template {
+        .footer-info {
+            margin-top: $main-measurement;
+            padding-bottom: 360px;
+            .next-info {
+                h1 {
+                    font-size: 30px;
+                    padding-bottom: 90px;
+                }
+                strong {
+                    font-size: 120px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .works-template {
+        .pb-text {
+            h1 {
+                padding-bottom: 87px;
+            }
+        }
+        .pt-text {
+            padding-top: 87px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 460px) {
+
+}
+
 // Work Template
 .works-template {
     background: #FFFFFF;
@@ -542,8 +599,8 @@
     }
     .footer-info {
         background-color: #C4C4C4;
-        height: 720px;
         margin-top: $main-measurement;
+        padding-bottom: 360px;
         .next-info {
             h1 {
                 font-family: 'Acumin-Pro-Light';
