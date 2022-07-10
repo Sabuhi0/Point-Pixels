@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="/src/assets/css/main.css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!--  -->
+    <link rel="stylesheet" href="/node_modules//@splidejs/splide/dist/css/splide-core.min.css">
 </head>
 
-<body>
+<body> 
     <!-- Home Section Start -->
     <section id="home">
         <main class="home-bg d-flex flex-column justify-content-between">
@@ -66,82 +68,125 @@
             <div id="home-items">
                 <!-- Slider Start -->
                 <!-- <div class="slick-track" role="listbox" style="width: 100%;">
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide80">
+                    <div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide80">
                         <h3>1</h3>
                         <img src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide81">
+                    <div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide81">
                         <h3>2</h3>
                         <img src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide82">
+                    <div class="slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide82">
                         <h3>3</h3>
                         <img src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide83">
+                    <div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide83">
                         <h3>4</h3>
                         <img src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                    <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                         <h3>5</h3>
                         <img src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide86">
+                    <div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide86">
                         <h3>6</h3>
                         <img src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide87">
+                    <div class="slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide87">
                         <h3>7</h3>
                         <img src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide88">
+                    <div class="slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide88">
                         <h3>8</h3>
                         <img src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide89">
+                    <div class="slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide89">
                         <h3>9</h3>
                         <img src="/src/assets/images/svg/Ellipse4.svg" alt="">
                     </div>
-                    <div class="slick-slide d-flex align-items-center" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide90">
+                    <div class="slick-slide" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide90">
                         <h3>10</h3>
                         <img src="/src/assets/images/svg/Rectangle7.svg" alt="">
                     </div>
                 </div> -->
 
-                <div class="slider">
-                    <div class="slick-track splide d-flex align-items-center">
+                <!-- <div class="slider">
+                    <div class="slick-track splide">
                         <div class="slide">
-                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                            <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>creativity</h3>
                                 <img class="w-100" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
                         </div>
                         <div class="slide">
-                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                            <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>passion</h3>
                                 <img class="w-100" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
                         </div>
                         <div class="slide">
-                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                            <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>talent</h3>
                                 <img class="w-100" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
                         </div>
                         <div class="slide">
-                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                            <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>creativity</h3>
                                 <img class="w-100" src="/src/assets/images/svg/Rectangle7.svg" width="250" alt="">
                             </div>
                         </div>
                         <div class="slide">
-                            <div class="slick-slide d-flex align-items-center slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
+                            <div class="slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide84">
                                 <h3>talent</h3>
                                 <img class="w-100" src="/src/assets/images/svg/Ellipse4.svg" width="250" alt="">
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
+                <section class="splide" aria-label="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide d-flex align-items-center">
+                                <h3>talent</h3>
+                                <div class="splide__img">
+                                    <img src="/src/assets/images/svg/Ellipse4.svg" width="40" height="40" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex align-items-center">
+                                <h3>passion</h3>
+                                <div class="splide__img">
+                                    <img src="/src/assets/images/svg/Rectangle7.svg" width="40" height="40" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex align-items-center">
+                                <h3>creativity</h3>
+                                <div class="splide__img">
+                                    <img src="/src/assets/images/svg/Ellipse4.svg" width="40" height="40" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex align-items-center">
+                                <h3>talent</h3>
+                                <div class="splide__img">
+                                    <img src="/src/assets/images/svg/Rectangle7.svg" width="40" height="40" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex align-items-center">
+                                <h3>passion</h3>
+                                <div class="splide__img">
+                                    <img src="/src/assets/images/svg/Ellipse4.svg" width="40" height="40" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide d-flex align-items-center">
+                                <h3>creativity</h3>
+                                <div class="splide__img">
+                                    <img src="/src/assets/images/svg/Rectangle7.svg" width="40" height="40" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
 
                 <!-- Slider End -->
 
@@ -158,7 +203,7 @@
                         <div class="col-xl-6">
                             <div class="footer-info">
                                 <a href="/">info@pointandpixels.com</a>
-                                <div class="footer-socials d-flex align-items-center">
+                                <div class="footer-socials">
                                     <a href="/"><img src="/src/assets/images/svg/be.svg" alt="" /></a>
                                     <a href="/"><img src="/src/assets/images/svg/instagram.svg" alt="" /></a>
                                 </div>
@@ -175,10 +220,25 @@
     
     <!-- Vanila Js -->
     <script src="/src/assets/js/app.js"></script>
+    <!-- Splide Js -->
+    <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <script src="/node_modules/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
-    <!-- Jquery -->
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+    <script>
+        const splide = new Splide( '.splide', {
+            type: 'loop',
+            drag: 'free',
+            focus: 'center',
+            arrows: false,
+            perPage: 5,
+            pagination: false,
+            autoScroll: {
+                speed: 4,
+            },
+        } );
+          
+        splide.mount(window.splide.Extensions); 
+    </script>
 </body>
 
 </html>
