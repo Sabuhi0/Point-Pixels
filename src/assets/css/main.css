@@ -647,6 +647,7 @@ body {
     width: 490px;
     padding-top: 120px;
     font-size: 30px;
+    line-height: 30px;
   }
   .pp-container .works-items:not(:first-child) {
     margin-top: 120px;
@@ -690,6 +691,7 @@ body {
     width: 490px;
     padding-top: 120px;
     font-size: 30px;
+    line-height: 30px;
   }
   .pp-container .works-items:not(:first-child) {
     margin-top: 120px;
@@ -757,10 +759,12 @@ body {
   }
   .pp-container .works-footer-section h1 {
     font-size: 80px;
-    line-height: 80px;
+    line-height: 70px;
   }
   .pp-container .works-footer-section p {
-    font-size: 22px;
+    width: auto;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
@@ -934,7 +938,6 @@ body {
   font-weight: 400;
   letter-spacing: -0.04em;
   color: #ffffff;
-  line-height: 30px;
 }
 
 /*-------------------- Works Template ---------------------- */

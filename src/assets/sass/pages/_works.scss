@@ -43,6 +43,7 @@
                 width: 490px;
                 padding-top: $main-measurement;
                 font-size: 30px;
+                line-height: 30px;
             }
         }
         .works-items:not(:first-child) {
@@ -101,6 +102,7 @@
                 width: 490px;
                 padding-top: $main-measurement;
                 font-size: 30px;
+                line-height: 30px;
             }
         }
         .works-items:not(:first-child) {
@@ -206,11 +208,13 @@
             // padding: 87px 0 87px 0;
             h1 {
                 font-size: 80px;
-                line-height: 80px;
+                line-height: 70px;
             }
             p {
+                width: auto;
                 // padding: 87px 0 0px 0;
-                font-size: 22px;
+                font-size: 20px;
+                line-height: 20px;
             }
         }
     }
@@ -419,7 +423,6 @@
             font-weight: 400;
             letter-spacing: -0.04em;
             color: #ffffff;
-            line-height: 30px;
         }
     }
 }
