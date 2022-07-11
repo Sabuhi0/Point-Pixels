@@ -109,63 +109,6 @@
     }
 }
 
-// @media only screen and (min-width: 1024px) {
-//     .works-aside-section {
-//         padding: 0px 0px 35px $main-measurement;
-//         justify-content: center;
-//         .works-aside-close {
-//             margin-top: 45px;
-//             img {
-//                 width: 50px;
-//             }
-//         }
-//         aside {
-//             .works-aside-menu {
-//                 ul {
-//                     li {
-//                         a {
-//                             font-size: 80px;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-//     .pp-container {
-//         .header-content {
-//             // padding-right: $main-measurement;
-//             h1 {
-//                 font-size: 50px;
-//             }
-//         }
-//         .row {
-//             .hero-content {
-//                 padding: 103px 0 $main-measurement 0;
-//                 h1 {
-//                     font-size: 80px;
-//                     line-height: 80px;
-//                 }
-//             }
-//         }
-//         .works-footer-section {
-//             padding-top: $main-measurement;
-//             padding-bottom: 240px;
-//             h1 {
-//                 font-size: 100px;
-//                 line-height: 100px;
-//             }
-//             p {
-//                 width: 490px;
-//                 padding-top: $main-measurement;
-//                 font-size: 30px;
-//             }
-//         }
-//         .works-items:not(:first-child) {
-//             margin-top: $main-measurement;
-//         }
-//     }
-// }
-
 @media only screen and (max-width: 1024px) {
     .works-aside-section {
         padding-left: $main-measurement;
@@ -476,6 +419,8 @@
     }
 }
 
+/*-------------------- Works Template ---------------------- */ 
+
 @media only screen and (min-width: 1920px) {
     .works-template {
         .desc-video {
@@ -573,7 +518,6 @@
 
 }
 
-// Work Template
 .works-template {
     background: #FFFFFF;
     height: 100%;

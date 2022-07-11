@@ -186,6 +186,7 @@ body {
     font-size: 241px !important;
     line-height: 170px !important;
     height: 188px !important;
+    display: block !important;
   }
   .aside-section aside .aside-close img {
     width: 50px;
@@ -210,6 +211,10 @@ body {
     padding-bottom: 70px;
     padding-top: 30px;
   }
+  .home-bg .footer-item .footer-info a img {
+    width: 30px !important;
+    height: 30px !important;
+  }
 }
 
 @media only screen and (max-width: 1920px) {
@@ -229,6 +234,7 @@ body {
     font-size: 241px;
     line-height: 170px;
     height: 188px;
+    display: block;
   }
   .aside-section aside .aside-image img {
     width: 100%;
@@ -249,6 +255,10 @@ body {
   .home-bg .footer-item {
     padding-bottom: 70px;
     padding-top: 30px;
+  }
+  .home-bg .footer-item .footer-info a img {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -296,13 +306,14 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 120px;
     line-height: 120px;
+    display: contents;
   }
   .aside-section aside .aside-image {
     left: 17%;
-    top: -32%;
+    top: -21%;
   }
   .aside-section aside .aside-image img {
-    width: 100%;
+    width: 89%;
   }
   .aside-section aside .aside-content {
     bottom: 47%;
@@ -364,6 +375,30 @@ body {
     font-size: 90px;
     line-height: 90px;
   }
+  .aside-section aside .aside-image {
+    width: 125%;
+    top: 31%;
+    left: 4%;
+  }
+  .aside-section aside .aside-image img {
+    width: 80%;
+    transform: rotate(90deg);
+    object-fit: cover;
+  }
+  .aside-section aside .aside-content {
+    bottom: 55%;
+    left: 16%;
+  }
+  .aside-section aside .aside-content h1 {
+    width: 100%;
+    font-size: 69px;
+    letter-spacing: -3.06px;
+    line-height: 57px;
+  }
+  .aside-section aside .aside-content p {
+    font-size: 14px;
+    padding-top: 11px;
+  }
   .home-bg .splide {
     margin-bottom: 35px !important;
   }
@@ -385,6 +420,10 @@ body {
   }
   .footer-item .footer-info {
     justify-content: space-between;
+  }
+  .footer-item .footer-info a img {
+    width: 20px !important;
+    height: 20px !important;
   }
   .footer-item .footer-socials a:not(:last-child) {
     margin-right: 33.98px;
@@ -496,7 +535,6 @@ body {
   font-weight: 700;
   letter-spacing: -0.06em;
   transition: all ease .2s;
-  display: block;
   overflow-y: clip;
 }
 
@@ -526,7 +564,6 @@ body {
 .home-bg .aside-section aside .aside-content h1 {
   color: #000000;
   font-weight: 700;
-  line-height: 74px;
 }
 
 .home-bg .aside-section aside .aside-content p {
@@ -897,6 +934,7 @@ body {
   line-height: 30px;
 }
 
+/*-------------------- Works Template ---------------------- */
 @media only screen and (min-width: 1920px) {
   .works-template .desc-video {
     height: 625px !important;
