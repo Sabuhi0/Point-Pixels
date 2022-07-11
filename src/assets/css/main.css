@@ -196,6 +196,20 @@ body {
   .aside-section aside .aside-content h1 {
     line-height: 100px;
   }
+  .home-bg .splide {
+    margin-bottom: 35px !important;
+  }
+  .home-bg .splide .splide__track .splide__list .splide__slide h3 {
+    font-size: 3.4rem !important;
+  }
+  .home-bg .splide .splide__track .splide__list .splide__slide .splide__img img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .home-bg .footer-item {
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 1920px) {
@@ -221,6 +235,20 @@ body {
   }
   .aside-section aside .aside-close img {
     width: 50px;
+  }
+  .home-bg .splide {
+    margin-bottom: 35px !important;
+  }
+  .home-bg .splide .splide__track .splide__list .splide__slide h3 {
+    font-size: 3.4rem;
+  }
+  .home-bg .splide .splide__track .splide__list .splide__slide .splide__img img {
+    width: 40px;
+    height: 40px;
+  }
+  .home-bg .footer-item {
+    padding-bottom: 70px;
+    padding-top: 30px;
   }
 }
 
@@ -335,6 +363,21 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 90px;
     line-height: 90px;
+  }
+  .home-bg .splide {
+    margin-bottom: 35px !important;
+  }
+  .home-bg .splide .splide__track .splide__list .splide__slide h3 {
+    font-size: 2.8rem;
+  }
+  .home-bg .splide .splide__track .splide__list .splide__slide .splide__img img {
+    width: 12px;
+    height: 12px;
+  }
+  .footer-item {
+    padding-bottom: 40px !important;
+    padding-top: 30px !important;
+    gap: 60px;
   }
   .footer-item h1 {
     font-size: 25px !important;
@@ -501,14 +544,9 @@ body {
   transition: all ease .8s;
 }
 
-.home-bg .splide {
-  margin-bottom: 35px !important;
-}
-
 .home-bg .splide .splide__track .splide__list .splide__slide h3 {
   letter-spacing: -0.06em;
   color: #303030;
-  font-size: 3.4rem;
 }
 
 .home-bg .splide .splide__track .splide__list .splide__slide .splide__img {
@@ -517,11 +555,7 @@ body {
 }
 
 .home-bg .footer-item {
-  max-width: 1258px;
   width: 100%;
-  margin: 0 auto;
-  margin-bottom: 70px !important;
-  padding-top: 30px;
 }
 
 .home-bg .footer-item .footer-text h1 {
