@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1920px) {
+    .bg-fon {
+        height: 100vh !important;
+    }
     .pp-contact {
         padding: 87px 120px 0 120px !important;
         .header-location {
@@ -45,6 +48,9 @@
 }
 
 @media only screen and (max-width: 1920px) {
+    .bg-fon {
+        height: 100vh;
+    }
     .pp-contact {
         padding: 87px 120px 0 120px;
         .header-location {
@@ -57,8 +63,6 @@
         display: flex;
         flex-direction: column;
         gap: 25px;
-        margin-top: 55px;
-        margin-bottom: 70px;
         line-height: 80%;
         h1 {
             font-size: 90px;
@@ -90,6 +94,17 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    .pp-contact {
+        .header-location {
+            h1 {
+                font-size: 25px;
+            }
+        }
+    }
+    .main-content {
+        margin-top: 55px !important;
+        margin-bottom: 70px !important;
+    }
     .footer-section {
         display: flex;
         align-items: flex-end;
@@ -98,12 +113,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .bg-fon {
+        height: 100%;
+    }
     .pp-contact {
         padding: 87px 87px 0 87px;
     }
     .header-location {
         h1 {
-            font-size: 20px;
+            font-size: 20px !important;
         }
     }
     .main-content {
@@ -117,6 +135,7 @@
     }
     .footer-section {
         padding-top: 73px;
+        padding-bottom: 88px;
         align-items: flex-start;
         flex-direction: column;
         .footer-desc {
@@ -130,8 +149,6 @@
         padding: 53px 53px 0 53px;
     }
     .main-content {
-        margin-top: 54px;
-        margin-bottom: 73px;
         h1 {
             font-size: 60px;
         }
@@ -141,7 +158,7 @@
     }
     .header-location {
         h1 {
-            font-size: 18px;
+            font-size: 18px !important;
         }
     }
     .header-logo {
@@ -176,7 +193,7 @@
     }
     .header-location {
         h1 {
-            font-size: 10px;
+            font-size: 10px !important;
         }
     }
     .header-logo {
@@ -190,7 +207,6 @@
 
 .bg-fon {
     background: #000000;
-    height: 100vh;
     .header-location {
         h1 {
             font-family: 'Acumin-Pro-Light';
