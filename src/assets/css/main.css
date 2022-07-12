@@ -169,7 +169,7 @@ body {
   height: 100vh;
 }
 
-@media only screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .aside-section .aside-section-button {
     height: 187px;
     top: 50%;
@@ -225,7 +225,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1920px) {
+@media (max-width: 1920px) {
   .aside-section .aside-section-button {
     height: 187px;
     top: 50%;
@@ -282,7 +282,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1110px) {
+@media (min-width: 1110px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -80%) !important;
   }
@@ -316,7 +316,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1110px) {
+@media (max-width: 1110px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -114%) !important;
   }
@@ -330,7 +330,6 @@ body {
   .aside-section aside .aside-menus .aside-nav a {
     font-size: 200px;
     line-height: 120px;
-    display: contents;
   }
   .aside-section aside .aside-image {
     left: 17%;
@@ -364,16 +363,12 @@ body {
     margin-top: 30px;
     justify-content: space-between;
   }
-  .footer-item .footer-info a img {
-    width: 20px !important;
-    height: 20px !important;
-  }
   .footer-item .footer-socials a:not(:last-child) {
     margin-right: 33px;
   }
 }
 
-@media only screen and (min-width: 728px) {
+@media (min-width: 728px) {
   .aside-section .aside-section-button .d-none-text {
     display: none;
   }
@@ -384,7 +379,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .aside-section .aside-section-button {
     transform: translate(0%, -144%);
   }
@@ -406,28 +401,23 @@ body {
     width: 12px;
     height: 12px;
   }
-  .footer-item {
-    padding-bottom: 108px;
-    padding-top: 53px;
-  }
   .footer-item h1 {
     font-size: 25px;
     line-height: 25px;
   }
   .footer-item .footer-info {
-    margin-top: 84px;
     justify-content: space-between;
   }
   .footer-item .footer-info a img {
-    width: 20px !important;
-    height: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
   .footer-item .footer-socials a:not(:last-child) {
     margin-right: 33px;
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media (max-width: 460px) {
   .aside-section aside .aside-close img {
     width: 30px;
   }

@@ -1,4 +1,6 @@
-@media only screen and (min-width: 1920px) {
+// Home Page
+
+@media (min-width: 1920px) {
     .aside-section {
         .aside-section-button {
             height: 187px;
@@ -81,7 +83,7 @@
     }
 }
 
-@media only screen and (max-width: 1920px) {
+@media (max-width: 1920px) {
     .aside-section {
         .aside-section-button {
             height: 187px;
@@ -160,7 +162,7 @@
     }
 }
 
-@media only screen and (min-width: 1110px) {
+@media (min-width: 1110px) {
     .aside-section {
         .aside-section-button {
             transform: translate(-0%, -80%) !important;
@@ -169,16 +171,6 @@
             }
         }
         aside {
-            // .aside-menus {
-            //     align-items: center;
-            //     .aside-nav {
-            //         padding-right: 113px;
-            //         a {
-            //             font-size: 160px !important;
-            //             list-style: 160px !important;
-            //         }
-            //     }
-            // }
             .aside-content {
                 bottom: 8%;
                 left: 15%;
@@ -207,43 +199,9 @@
             }
         }
     }
-    // .home-bg {
-    //     .splide {
-    //         margin-bottom: 35px !important;
-    //         .splide__track {
-    //             .splide__list {
-    //                 .splide__slide {
-    //                     h3 {
-    //                         font-size: 2.8rem;
-    //                     }
-    //                     .splide__img {
-    //                         img {
-    //                             width: 40px !important;
-    //                             height: 40px !important;
-    //                         }
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
-    // .footer-item {
-    //     padding-bottom: 70px !important;
-    //     padding-top: 30px !important;
-    //     .footer-info {
-    //         margin-top: 0px !important;
-    //         justify-content: flex-end !important;
-    //     }
-    //     .footer-socials {
-    //         a:not(:last-child) {
-    //             margin-left: 124px;
-    //             margin-right: 89.97px !important;
-    //         }
-    //     }
-    // }
 }
 
-@media only screen and (max-width: 1110px) {
+@media (max-width: 1110px) {
     .aside-section {
         .aside-section-button {
             transform: translate(-0%, -114%) !important;
@@ -257,7 +215,7 @@
                     a {
                         font-size: 200px;
                         line-height: 120px;
-                        display: contents;
+                        // display: contents;
                     }
                 }
             }
@@ -295,12 +253,6 @@
         .footer-info {
             margin-top: 30px;
             justify-content: space-between;
-            a {
-                img {
-                    width: 20px !important;
-                    height: 20px !important;
-                }
-            }
         }
         .footer-socials {
             a:not(:last-child) {
@@ -310,7 +262,7 @@
     }
 }
 
-@media only screen and (min-width: 728px) {
+@media (min-width: 728px) {
     .aside-section {
         .aside-section-button {
             .d-none-text {
@@ -325,7 +277,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .aside-section {
         .aside-section-button {
             transform: translate(-0%, -144%);
@@ -360,19 +312,19 @@
         }
     }
     .footer-item {
-        padding-bottom: 108px;
-        padding-top: 53px;
+        // padding-bottom: 108px;
+        // padding-top: 53px;
         h1 {
             font-size: 25px;
             line-height: 25px;
         }
         .footer-info {
-            margin-top: 84px;
+            // margin-top: 84px;
             justify-content: space-between;
             a {
                 img {
-                    width: 20px !important;
-                    height: 20px !important;
+                    width: 30px !important;
+                    height: 30px !important;
                 }
             }
         }
@@ -384,7 +336,7 @@
     }
 }
 
-@media only screen and (max-width: 460px) {
+@media (max-width: 460px) {
     .aside-section {
         aside {
             .aside-close {
@@ -539,6 +491,7 @@
         left: 0%;
         transition: all ease .8s;
     }
+    // Slider
     .splide {
         .splide__track {
             .splide__list {
