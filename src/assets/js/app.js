@@ -26,27 +26,33 @@ if(aside_close) {
 
 // Maousehover
 
-const work = (e) => {
-    e.addEventListener("mouseover", () => {
-        isMouseHover = true
-        document.querySelector(".aside-image").classList.add('show');
-    });
-    e.addEventListener("mouseleave", () => {
-        isMouseHover = false
-        document.querySelector(".aside-image").classList.remove('show');
-    });
-}
 
-const contact = (e) => {
-    e.addEventListener("mouseover", () => {
-      isMouseHover = true
-      document.querySelector(".aside-content").classList.add('show');
-    });
-    e.addEventListener("mouseleave", () => {
-        isMouseHover = false
-        document.querySelector(".aside-content").classList.remove('show');
-    });
-}
+// const work = (e) => {
+//     const aside_image = document.querySelector(".aside-image");
+//     e.addEventListener("mouseover", () => {
+//         if(aside_image) {
+//             isMouseHover = true
+//             aside_image.classList.add('show');
+//         }
+//     });
+//     e.addEventListener("mouseleave", () => {
+//         if(aside_image) {
+//             isMouseHover = false
+//             aside_image.classList.remove('show');
+//         }
+//     });
+// }
+
+// const contact = (e) => {
+//     e.addEventListener("mouseover", () => {
+//       isMouseHover = true
+//       document.querySelector(".aside-content").classList.add('show');
+//     });
+//     e.addEventListener("mouseleave", () => {
+//         isMouseHover = false
+//         document.querySelector(".aside-content").classList.remove('show');
+//     });
+// }
 
 // Works
 

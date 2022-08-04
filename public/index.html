@@ -49,10 +49,10 @@
                     <div class="aside-menus">
                         <nav class="aside-nav">
                             <div>
-                                <a onmouseover="work(this)" href="/public/works.html">work</a>
+                                <a id="hover__image" href="/public/works.html">work</a>
                             </div>
                             <div>
-                                <a onmouseover="contact(this)" href="/public/contact.html">contact</a>
+                                <a id="hover__content" href="/public/contact.html">contact</a>
                             </div>
                             <div>
                                 <a href="/">news</a>
@@ -143,6 +143,15 @@
     
     <!-- Vanila Js -->
     <script src="/src/assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $('#hover__image').hover(
+            function(){ $(document.querySelector(".aside-image")).toggleClass("show") },
+        )
+        $('#hover__content').hover(
+            function(){ $(document.querySelector(".aside-content")).toggleClass("show") },
+        )
+    </script>
     <!-- Splide Js -->
     <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <script src="/node_modules/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
