@@ -1,1 +1,1 @@
-# [Point-Pixels](https://pointandpixels.com/)
+# [Point&Pixels](https://pointandpixels.com/)
